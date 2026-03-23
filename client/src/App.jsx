@@ -103,7 +103,7 @@ const UploadZone = ({ file, onFile, disabled }) => {
       ) : (
         <div className="upload-placeholder">
           <div className="upload-icon">⬆</div>
-          <p className="upload-title">Drop your Investigator Brochure PDF</p>
+          <p className="upload-title">Drop your raw data brochure PDF</p>
           <p className="upload-sub">or click to browse • PDF only</p>
         </div>
       )}
@@ -317,7 +317,7 @@ function App() {
       <aside className="sidebar">
         <div className="brand">
           <div className="logo-circle">A</div>
-          <span className="logo-text">AViiD Platform</span>
+          <span className="logo-text">DILI platform (hcltech )</span>
         </div>
 
         <div className="nav-menu">
@@ -362,7 +362,7 @@ function App() {
           <div className="extraction-left">
             <div className="tech-panel">
               <div className="tech-panel-header">
-                <span className="tech-panel-title">Investigator Brochure</span>
+                <span className="tech-panel-title">raw data brochure</span>
                 <span className="required-badge">REQUIRED</span>
               </div>
               <div className="tech-panel-body">

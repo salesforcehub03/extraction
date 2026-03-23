@@ -24,7 +24,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 sys.path.insert(0, str(EXTRACTION_DIR))
 
 # ── FastAPI app ────────────────────────────────────────────────────────────────
-app = FastAPI(title="AViiD Data Pipeline API", version="2.0.0")
+app = FastAPI(title="DILI Data Pipeline API (hcltech )", version="2.0.0")
 
 app.add_middleware(
     CORSMiddleware,

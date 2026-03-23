@@ -35,7 +35,7 @@ class DILIPipeline:
         output_path: str = "output.json",
         prior_context_path: Optional[str] = None,
         use_graph_agent: bool = False,
-        document_label: str = "Investigator Brochure",
+        document_label: str = "raw data brochure",
         on_step: Optional[Callable[..., Awaitable[None]]] = None,
     ) -> Dict[str, Any]:
         """Run the full DILI extraction pipeline.
