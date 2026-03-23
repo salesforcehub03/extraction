@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, StreamingResponse
 
 # ── Path setup: make Data Extraction importable ───────────────────────────────
-BASE_DIR = Path(__file__).resolve().parent.parent          # d:\AViiD
+BASE_DIR = Path(__file__).resolve().parent.parent
 EXTRACTION_DIR = BASE_DIR / "Data Extraction"
 HARMONIZATION_DIR = BASE_DIR / "Data Harmonization"
 UPLOAD_DIR = BASE_DIR / "backend" / "uploads"
