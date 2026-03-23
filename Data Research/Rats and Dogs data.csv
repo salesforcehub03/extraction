@@ -1,0 +1,19 @@
+PXDIOI Dose (mg/kg/day),,,,,,Males,,,,Females,,,
+,,,,,,0,10,25,100,0,10,25,100
+"Early Decedents				",,,,,,,,,,,,,
+Number of Animals in Group,,,,,,1,0,0,4,1,0,0,2
+Heart cardiomyopathy,,,,,,,,,1a,,,,
+Spleen Hematopoiesis,,,,,,,,,"1a,1b",1p,,,1b
+Ovary congesion/hemorrhage,,,,,,,,,,1p,,,
+Thymus atrophy -congestion/hemorrhage,,,,,,,,,1a,,,,1a
+"Tail lesions -phlebitis, dermatitis, edema, hemorrhage",,,,,,,,,"2c,1d",,,,"1c,1d"
+Terminal Sacrifice,,,,,,,,,,,,,
+Number of Animals in Groups,,,,,,8,10,10,7,9,10,10,8
+Heart -inflammatory cell foci,,,,,,1a,,,,1a,,,
+Spleen -Hematopoiesis,,,,,,"7a,1b",,,"5a,1b","5a,3b",,,"4a,3b,1c"
+Testes -tubular atrophy,,,,,,,,,1a,,,,
+Thymus -atrophy -congestion/hemorrhage,,,,,,,,2p,3a,,,,1p
+"Tail lesions - phlebitis, dermatitis, edema, hemorrhage					",,,,,,4a,"7a, 1b","6a, 1b","3a 3b, 1c","4a, 1b",4a,"2a, 1b","5a, 3b"
+Recovery,,,,,,,,,,,,,
+Number of Animals in Group,,,,,,5,0,0,4,5,0,0,5
+Heart,,,,,,,,,,,,,

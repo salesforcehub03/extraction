@@ -1,0 +1,7 @@
+azure-ai-documentintelligence
+azure-identity
+openai
+python-dotenv
+pydantic
+pandas
+openpyxl

@@ -1,0 +1,300 @@
+// ============================================
+// Knowledge Graph Export
+// Generated from Neo4j Database
+// ============================================
+
+// HOW TO IMPORT:
+// 1. Open Neo4j Browser
+// 2. Copy and paste this entire file
+// 3. Run the script
+
+// WARNING: This will DELETE all existing data!
+// Comment out the next line if you want to MERGE instead:
+MATCH (n) DETACH DELETE n;
+
+// ========== CREATE NODES ==========
+
+CREATE (n106:Drug {iupac_name: 'N-hydroxy-3-[3-(phenylsulfamoyl)phenyl]prop-2-enamide', drug_name: 'Belinostat', smiles: 'C1=CC=C(C=C1)NS(=O)(=O)C2=CC=CC(=C2)C=CC(=O)NO', h_donor: 3, h_acceptor: 5, tpsa: 104, molecular_weight: 318.3, chembl_id: 'CHEMBL408513', logp: 1.7, cid: 53437714});
+CREATE (n107:StudyMetadata {sponsor: 'Spectrum Pharmaceuticals', study_design: 'Uncontrolled, IV Monotherapy', study_ids: '['CLN-19', 'CLN-20', 'SPI-BEL-103', 'SPI-BEL-1014', 'SPI-BEL-104']', study_phase: 'Phase 2', status: 'Completed'});
+CREATE (n108:PopulationCharacteristics {age_range: '29-81', median_age: 63.0, sample_size: 1186, disease_subtype: 'Relapsed or refractory PTCL', female_percent: 46.5, male_percent: 53.5, disease_indication: 'Peripheral T-Cell Lymphoma'});
+CREATE (n109:DosingAdministration {schedule: 'Days 1-5 q 21 days', route: 'IV', dose_level: 500, infusion_duration: '30 minutes', cycle_length: '21 days'});
+CREATE (n110:Pharmacokinetics {half_life: '1.1 hours', protein_binding_percent: 94, clearance: '1,240 mL/min', metabolism: 'UGT1A1', auc: '21,057 to 31,358 h*ng/mL (at 1,000 mg/m2)', cmax: -1.772e-05});
+CREATE (n111:EligibilityCriteria {creatinine_clearance: '>=45 mL/min/1.73 m2', anc: '>=1.0 x 10^9/L (to resume treatment)', bilirubin: '<=1.5 x ULN', platelet: '>=50 x 10^9/L (to resume treatment)', alt_ast: 'Monitoring required'});
+CREATE (n112:TreatmentManagement {supportive_care: '['Antiemetics', 'Growth factors']', platelet_nadir_threshold: '<25 x 10^9/L (reduce 25%)', dose_reductions: '['1500 mg/m²', '1000 mg/m²', '750 mg/m²', '500 mg/m²', '750 mg/day']', anc_nadir_threshold: '<0.5 x 10^9/L (reduce 25%)'});
+CREATE (n113:MechanismOfAction {cellular_effects: 'Belinostat caused accumulation of acetylated histones and proteins, inducing cell cycle arrest and/or apoptosis of transformed cells', description: 'HDAC inhibitor', molecular_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC8', 'HDAC4', 'HDAC7', 'HDAC9', 'HDAC6']'});
+CREATE (n114:PreclinicalToxicology {summary: 'Systemic exposures increase with dose; plasma levels decline rapidly with elimination half-life between 0.35-1.23 hours in rats and 0.45-1.61 hours in dogs.', species: '['Rat', 'Dog']', target_organs: '['Liver', 'Bone marrow']'});
+CREATE (n115:Genotoxicity {conclusion: 'Belinostat is a genotoxic agent targeting rapidly dividing cells.'});
+CREATE (n116:Carcinogenicity {studies_conducted: 'No'});
+CREATE (n117:StudyOverview {name: 'Belinostat Study Overview'});
+CREATE (n118:ClinicalData {name: 'Belinostat Clinical Data'});
+CREATE (n119:PreClinicalData {name: 'Belinostat Pre-Clinical Data'});
+CREATE (n120:ReproductiveToxicity {warnings: 'Belinostat belongs to the histone deacetylase inhibitor class known to cause developmental toxicity.', developmental_warnings: 'Belinostat is indicated for advanced cancer treatment; reproductive studies deemed unnecessary per ICH S9 guidance.'});
+CREATE (n121:DrugProductInfo {name: 'Belinostat Drug Product Info'});
+CREATE (n122:FormulationStability {stability_after_reconstitution: '12 hours at ambient temperature (15℃-25℃; 59ºF-77°F)', storage: '20º to 25℃ (68° to 77ºF)', type: 'Lyophilized powder for injection', excipients: '['L-Arginine', 'Mannitol', 'Sodium hydroxide']', shelf_life: '36 months'});
+CREATE (n123:DrugInteractions {cyp_interactions: 'Interaction with CYP3A4 enzymes.', clinical_significance: 'Potential for increased plasma levels of co-administered drugs metabolized by CYP3A4.', interacting_drugs: '['5-FU', 'carboplatin', 'paclitaxel', 'bortezomib', 'docetaxel', 'erlotinib', 'trabectedin', 'sorafenib', 'Warfarin', 'CYP3A4 substrates']'});
+CREATE (n124:Contraindications {list: '['Severe hepatic impairment', 'Hypersensitivity']', rationale: 'Risk of severe toxicity in hepatic impairment and allergic reactions.'});
+CREATE (n125:SpecialPopulations {pregnancy: 'Developmental toxicity warnings', hepatic_impairment: 'Moderate/severe impairment excluded', pediatric: 'No pediatric patients included'});
+CREATE (n126:SafetyEfficacy {name: 'Belinostat Safety & Efficacy'});
+CREATE (n127:SafetyData {death_count: 22, qtc_change: 'No significant QTc prolongation', total_aes: 205, hepatotoxicity_warning: 'One patient died with hepatic failure, which was considered related to belinostat treatment.'});
+CREATE (n128:EfficacyOutcomes {median_duration_of_response: '13.6 months', pr_rate_percent: 15.0, cr_rate_percent: 10.8, median_time_to_response: '6 weeks', orr_percent: 25.8});
+CREATE (n129:SubgroupEfficacy {aitl_percent: 45.5, ptcl_nos_percent: 23.4});
+CREATE (n130:AdverseEvents {name: 'Belinostat Adverse Events'});
+CREATE (n159:AdverseEvent {grade34_percents: '[0.8, 0.8]', teae: True, sae: False, counts: '[54, 55, 50]', name: 'Nausea', percents: '[41.9, 42.6, 38.8]', grade34_counts: '[1, 1]'});
+CREATE (n160:AdverseEvent {grade34_percents: '[5.4, 3.1]', teae: True, sae: False, counts: '[48, 48, 37]', name: 'Fatigue', percents: '[37.2, 37.2, 28.7, 5.4]', grade34_counts: '[7, 4]'});
+CREATE (n161:AdverseEvent {grade34_percents: '[2.3]', teae: True, sae: False, counts: '[45, 47]', name: 'Pyrexia', percents: '[34.9, 36.4]', grade34_counts: '[3]'});
+CREATE (n162:AdverseEvent {grade34_percents: '[10.9, 11.6]', teae: True, sae: False, counts: '[41, 41]', name: 'Anemia', percents: '[31.8, 11.6]', grade34_counts: '[14, 15]'});
+CREATE (n163:AdverseEvent {grade34_percents: '[7.0, 7.8]', teae: True, sae: False, counts: '[14, 21]', name: 'Thrombocytopenia', percents: '[10.9, 7.8, 16.3]', grade34_counts: '[9, 10]'});
+CREATE (n164:AdverseEvent {grade34_percents: '[6.2, 7.0]', teae: True, sae: False, counts: '[29]', name: 'Dyspnea', percents: '[7.0, 22.5]', grade34_counts: '[8, 9]'});
+CREATE (n165:AdverseEvent {grade34_percents: '[6.2]', teae: True, sae: False, counts: '[13]', name: 'Neutropenia', percents: '[6.2, 10.1]', grade34_counts: '[8]'});
+CREATE (n166:AdverseEvent {grade34_percents: '[5.4]', teae: True, sae: True, counts: '[]', name: 'Pneumonia', percents: '[]', grade34_counts: '[7]'});
+CREATE (n167:AdverseEvent {grade34_percents: '[0.8]', teae: True, sae: False, counts: '[37]', name: 'Vomiting', percents: '[28.7]', grade34_counts: '[1]'});
+CREATE (n168:AdverseEvent {grade34_percents: '[0.8]', teae: True, sae: False, counts: '[30]', name: 'Constipation', percents: '[23.3]', grade34_counts: '[1]'});
+CREATE (n169:AdverseEvent {grade34_percents: '[1.6]', teae: True, sae: False, counts: '[28]', name: 'Diarrhea', percents: '[21.7]', grade34_counts: '[2]'});
+CREATE (n170:AdverseEvent {grade34_percents: '[0]', teae: True, sae: False, counts: '[27]', name: 'Edema Peripheral', percents: '[20.9]', grade34_counts: '[0]'});
+CREATE (n171:AdverseEvent {grade34_percents: '[0.8]', teae: True, sae: False, counts: '[26]', name: 'Rash', percents: '[20.2]', grade34_counts: '[1]'});
+CREATE (n172:AdverseEvent {grade34_percents: '[0]', teae: True, sae: False, counts: '[25]', name: 'Cough', percents: '[19.4]', grade34_counts: '[0]'});
+CREATE (n173:AdverseEvent {grade34_percents: '[1.6]', teae: True, sae: False, counts: '[21]', name: 'Chills', percents: '[16.3]', grade34_counts: '[2]'});
+CREATE (n174:AdverseEvent {grade34_percents: '[3.1]', teae: True, sae: False, counts: '[21]', name: 'Pruritus', percents: '[16.3]', grade34_counts: '[4]'});
+CREATE (n175:AdverseEvent {grade34_percents: '[5.4]', teae: True, sae: False, counts: '[17]', name: 'Hypokalemia', percents: '[5.4, 13.2]', grade34_counts: '[7]'});
+CREATE (n176:AdverseEvent {grade34_percents: '[1.6]', teae: True, sae: False, counts: '[20]', name: 'Blood Lactate Dehydrogenase Increased', percents: '[15.5]', grade34_counts: '[2]'});
+CREATE (n177:AdverseEvent {grade34_percents: '[2.3]', teae: True, sae: False, counts: '[20]', name: 'Decreased Appetite', percents: '[15.5]', grade34_counts: '[3]'});
+CREATE (n178:AdverseEvent {grade34_percents: '[0]', teae: True, sae: False, counts: '[19]', name: 'Headache', percents: '[14.7]', grade34_counts: '[0]'});
+CREATE (n179:AdverseEvent {grade34_percents: '[0]', teae: True, sae: False, counts: '[18]', name: 'Infusion Site Pain', percents: '[14.0]', grade34_counts: '[0]'});
+CREATE (n180:AdverseEvent {grade34_percents: '[3.9]', teae: True, sae: False, counts: '[15]', name: 'Electrocardiogram QT Prolonged', percents: '[11.6]', grade34_counts: '[5]'});
+CREATE (n181:AdverseEvent {grade34_percents: '[0.8]', teae: True, sae: False, counts: '[14]', name: 'Abdominal Pain', percents: '[10.9]', grade34_counts: '[1]'});
+CREATE (n182:AdverseEvent {grade34_percents: '[3.1]', teae: True, sae: False, counts: '[14]', name: 'Hypotension', percents: '[10.9]', grade34_counts: '[4]'});
+CREATE (n183:AdverseEvent {grade34_percents: '[0]', teae: True, sae: False, counts: '[13]', name: 'Dizziness', percents: '[10.1]', grade34_counts: '[0]'});
+CREATE (n184:AdverseEvent {grade34_percents: '[2.3]', teae: True, sae: False, counts: '[13]', name: 'Leukopenia', percents: '[10.1]', grade34_counts: '[3]'});
+CREATE (n185:RecommendedDose {administration_days: 'Days 1-5', unit: 'mg/m²', dose: 1000, route: 'IV infusion', infusion_duration: '30 minutes', cycle_length: '21 days', frequency: 'Every 21-day cycle'});
+CREATE (n186:SimilarMolecules {name: 'Belinostat Similar Molecules'});
+CREATE (n187:SimilarMolecule {iupac_name: 'benzyl (E)-3-phenylprop-2-enoate', adverse_events: '['MALAISE (2 reports)', 'BLISTER (1 reports)', 'CEREBROVASCULAR ACCIDENT (1 reports)', 'COLD SWEAT (1 reports)', 'DIZZINESS (1 reports)', 'DYSPHAGIA (1 reports)', 'FEEDING DISORDER (1 reports)', 'HYPERSENSITIVITY (1 reports)', 'HYPERSOMNIA (1 reports)', 'ORTHOSTATIC HYPOTENSION (1 reports)']', smiles: 'C1=CC=C(C=C1)COC(=O)C=CC2=CC=CC=C2', name: 'Benzyl Cinnamate', chembl_id: 'CHEMBL361197', cid: 5273469});
+CREATE (n188:SimilarMolecule {iupac_name: '2-[[(E)-3-(3,4-dimethoxyphenyl)prop-2-enoyl]amino]benzoic acid', adverse_events: '['CONDITION AGGRAVATED (8 reports)', 'PYREXIA (8 reports)', 'DIARRHOEA (6 reports)', 'OFF LABEL USE (6 reports)', 'COUGH (5 reports)', 'DRUG-INDUCED LIVER INJURY (5 reports)', 'PNEUMONIA (5 reports)', 'HEADACHE (4 reports)', 'HEPATIC FUNCTION ABNORMAL (4 reports)', 'JAUNDICE (4 reports)']', smiles: 'COC1=C(C=C(C=C1)C=CC(=O)NC2=CC=CC=C2C(=O)O)OC', name: 'Tranilast', chembl_id: 'CHEMBL415324', cid: 5282230});
+CREATE (n190:SimilarMolecule {iupac_name: '(E)-N-hydroxy-3-[4-[[2-(2-methyl-1H-indol-3-yl)ethylamino]methyl]phenyl]prop-2-enamide', adverse_events: '['PLASMA CELL MYELOMA (172 reports)', 'DIARRHOEA (106 reports)', 'FATIGUE (76 reports)', 'THROMBOCYTOPENIA (72 reports)', 'DRUG INEFFECTIVE (67 reports)', 'DEATH (61 reports)', 'OFF LABEL USE (47 reports)', 'NAUSEA (46 reports)', 'NEUTROPENIA (45 reports)', 'DISEASE PROGRESSION (44 reports)']', smiles: 'CC1=C(C2=CC=CC=C2N1)CCNCC3=CC=C(C=C3)C=CC(=O)NO', name: 'Panobinostat', chembl_id: 'CHEMBL483254', cid: 6918837});
+CREATE (n192:SimilarMolecule {iupac_name: 'N\'-hydroxy-N-phenyloctanediamide', adverse_events: '['FEBRILE NEUTROPENIA (273 reports)', 'THROMBOCYTOPENIA (171 reports)', 'NAUSEA (148 reports)', 'DIARRHOEA (139 reports)', 'ANAEMIA (134 reports)', 'VOMITING (122 reports)', 'FATIGUE (114 reports)', 'SEPSIS (114 reports)', 'PNEUMONIA (105 reports)', 'DEHYDRATION (101 reports)']', smiles: 'C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO', name: 'Vorinostat', chembl_id: 'CHEMBL98', cid: 5311});
+CREATE (n194:SimilarMolecule {iupac_name: '(E)-3-phenylprop-2-enal', adverse_events: '['MEDICATION ERROR (10 reports)', 'DEATH (2 reports)', 'TOXICITY TO VARIOUS AGENTS (2 reports)', 'COMPLETED SUICIDE (1 reports)', 'INTENTIONAL PRODUCT USE ISSUE (1 reports)']', smiles: 'C1=CC=C(C=C1)C=CC=O', name: 'Cinnamaldehyde', chembl_id: 'CHEMBL293492', cid: 637511});
+CREATE (n196:TranscriptomicData {name: 'Belinostat LINCS Transcriptomic Data'});
+CREATE (n197:Signature {signature_id: 'LINCSCP_112515', stitch_id: 'CID6918638', lincspertid: 'LSM-43181', cell_line: 'HEPG2', gene_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC4', 'HDAC5', 'HDAC6', 'HDAC7', 'HDAC8', 'HDAC9', 'HDAC10', 'HDAC11']', concentration: '10uM', tissue: 'liver', perturbagen_id: 'BRD-K17743125', time: '24h', pubchem_id: '6918638'});
+CREATE (n198:Signature {signature_id: 'LINCSCP_112516', stitch_id: 'CID6918638', lincspertid: 'LSM-43181', cell_line: 'HEPG2', gene_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC4', 'HDAC5', 'HDAC6', 'HDAC7', 'HDAC8', 'HDAC9', 'HDAC10', 'HDAC11']', concentration: '3.33uM', tissue: 'liver', perturbagen_id: 'BRD-K17743125', time: '24h', pubchem_id: '6918638'});
+CREATE (n199:Signature {signature_id: 'LINCSCP_112517', stitch_id: 'CID6918638', lincspertid: 'LSM-43181', cell_line: 'HEPG2', gene_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC4', 'HDAC5', 'HDAC6', 'HDAC7', 'HDAC8', 'HDAC9', 'HDAC10', 'HDAC11']', concentration: '1.11uM', tissue: 'liver', perturbagen_id: 'BRD-K17743125', time: '24h', pubchem_id: '6918638'});
+CREATE (n200:Signature {signature_id: 'LINCSCP_112518', stitch_id: 'CID6918638', lincspertid: 'LSM-43181', cell_line: 'HEPG2', gene_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC4', 'HDAC5', 'HDAC6', 'HDAC7', 'HDAC8', 'HDAC9', 'HDAC10', 'HDAC11']', concentration: '0.37uM', tissue: 'liver', perturbagen_id: 'BRD-K17743125', time: '24h', pubchem_id: '6918638'});
+CREATE (n201:Signature {signature_id: 'LINCSCP_112519', stitch_id: 'CID6918638', lincspertid: 'LSM-43181', cell_line: 'HEPG2', gene_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC4', 'HDAC5', 'HDAC6', 'HDAC7', 'HDAC8', 'HDAC9', 'HDAC10', 'HDAC11']', concentration: '0.12uM', tissue: 'liver', perturbagen_id: 'BRD-K17743125', time: '24h', pubchem_id: '6918638'});
+CREATE (n202:Signature {signature_id: 'LINCSCP_112520', stitch_id: 'CID6918638', lincspertid: 'LSM-43181', cell_line: 'HEPG2', gene_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC4', 'HDAC5', 'HDAC6', 'HDAC7', 'HDAC8', 'HDAC9', 'HDAC10', 'HDAC11']', concentration: '0.04uM', tissue: 'liver', perturbagen_id: 'BRD-K17743125', time: '24h', pubchem_id: '6918638'});
+CREATE (n203:Signature {signature_id: 'LINCSCP_22329', stitch_id: 'CID6918638', lincspertid: 'LSM-43181', cell_line: 'HEPG2', gene_targets: '['HDAC1', 'HDAC2', 'HDAC3', 'HDAC4', 'HDAC5', 'HDAC6', 'HDAC7', 'HDAC8', 'HDAC9', 'HDAC10', 'HDAC11']', concentration: '10uM', tissue: 'liver', perturbagen_id: 'BRD-K17743125', time: '6h', is_exemplar: True, pubchem_id: '6918638'});
+CREATE (n215:DifferentialExpression {p_value: 0.00159102980978787, logFC: 2.86584, gene_symbol: 'AARS', gene_id: 16});
+CREATE (n216:DifferentialExpression {p_value: 0.12344004958868, logFC: -0.719101, gene_symbol: 'ABCF1', gene_id: 23});
+CREATE (n217:DifferentialExpression {p_value: 0.0534232333302498, logFC: -1.09127, gene_symbol: 'ABL1', gene_id: 25});
+CREATE (n218:DifferentialExpression {p_value: 0.428902357816696, logFC: -0.422714, gene_symbol: 'ACAA1', gene_id: 30});
+CREATE (n219:DifferentialExpression {p_value: 0.281458884477615, logFC: -0.519469, gene_symbol: 'ACAT2', gene_id: 39});
+
+// ========== CREATE RELATIONSHIPS ==========
+
+MATCH (n106), (n117) WHERE id(n106) = 106 AND id(n117) = 117
+CREATE (n106)-[:HAS_STUDY_OVERVIEW]->(n117);
+
+MATCH (n106), (n118) WHERE id(n106) = 106 AND id(n118) = 118
+CREATE (n106)-[:HAS_CLINICAL_DATA]->(n118);
+
+MATCH (n106), (n119) WHERE id(n106) = 106 AND id(n119) = 119
+CREATE (n106)-[:HAS_PRECLINICAL_DATA]->(n119);
+
+MATCH (n106), (n121) WHERE id(n106) = 106 AND id(n121) = 121
+CREATE (n106)-[:HAS_DRUG_PRODUCT_INFO]->(n121);
+
+MATCH (n106), (n126) WHERE id(n106) = 106 AND id(n126) = 126
+CREATE (n106)-[:HAS_SAFETY_EFFICACY]->(n126);
+
+MATCH (n106), (n130) WHERE id(n106) = 106 AND id(n130) = 130
+CREATE (n106)-[:HAS_ADVERSE_EVENTS]->(n130);
+
+MATCH (n106), (n185) WHERE id(n106) = 106 AND id(n185) = 185
+CREATE (n106)-[:HAS_RECOMMENDED_DOSE]->(n185);
+
+MATCH (n106), (n186) WHERE id(n106) = 106 AND id(n186) = 186
+CREATE (n106)-[:HAS_SIMILAR_MOLECULES]->(n186);
+
+MATCH (n106), (n196) WHERE id(n106) = 106 AND id(n196) = 196
+CREATE (n106)-[:HAS_TRANSCRIPTOMIC_DATA]->(n196);
+
+MATCH (n117), (n107) WHERE id(n117) = 117 AND id(n107) = 107
+CREATE (n117)-[:HAS_STUDY_METADATA]->(n107);
+
+MATCH (n117), (n108) WHERE id(n117) = 117 AND id(n108) = 108
+CREATE (n117)-[:HAS_POPULATION_CHARACTERISTICS]->(n108);
+
+MATCH (n117), (n109) WHERE id(n117) = 117 AND id(n109) = 109
+CREATE (n117)-[:HAS_DOSING_ADMINISTRATION]->(n109);
+
+MATCH (n118), (n110) WHERE id(n118) = 118 AND id(n110) = 110
+CREATE (n118)-[:HAS_PHARMACOKINETICS]->(n110);
+
+MATCH (n118), (n111) WHERE id(n118) = 118 AND id(n111) = 111
+CREATE (n118)-[:HAS_ELIGIBILITY_CRITERIA]->(n111);
+
+MATCH (n118), (n112) WHERE id(n118) = 118 AND id(n112) = 112
+CREATE (n118)-[:HAS_TREATMENT_MANAGEMENT]->(n112);
+
+MATCH (n119), (n113) WHERE id(n119) = 119 AND id(n113) = 113
+CREATE (n119)-[:HAS_MECHANISM_OF_ACTION]->(n113);
+
+MATCH (n119), (n114) WHERE id(n119) = 119 AND id(n114) = 114
+CREATE (n119)-[:HAS_PRECLINICAL_TOXICOLOGY]->(n114);
+
+MATCH (n119), (n115) WHERE id(n119) = 119 AND id(n115) = 115
+CREATE (n119)-[:HAS_GENOTOXICITY]->(n115);
+
+MATCH (n119), (n116) WHERE id(n119) = 119 AND id(n116) = 116
+CREATE (n119)-[:HAS_CARCINOGENICITY]->(n116);
+
+MATCH (n119), (n120) WHERE id(n119) = 119 AND id(n120) = 120
+CREATE (n119)-[:HAS_REPRODUCTIVE_TOXICITY]->(n120);
+
+MATCH (n121), (n122) WHERE id(n121) = 121 AND id(n122) = 122
+CREATE (n121)-[:HAS_FORMULATION_STABILITY]->(n122);
+
+MATCH (n121), (n123) WHERE id(n121) = 121 AND id(n123) = 123
+CREATE (n121)-[:HAS_DRUG_INTERACTIONS]->(n123);
+
+MATCH (n121), (n124) WHERE id(n121) = 121 AND id(n124) = 124
+CREATE (n121)-[:HAS_CONTRAINDICATIONS]->(n124);
+
+MATCH (n121), (n125) WHERE id(n121) = 121 AND id(n125) = 125
+CREATE (n121)-[:HAS_SPECIAL_POPULATIONS]->(n125);
+
+MATCH (n126), (n127) WHERE id(n126) = 126 AND id(n127) = 127
+CREATE (n126)-[:HAS_SAFETY_DATA]->(n127);
+
+MATCH (n126), (n128) WHERE id(n126) = 126 AND id(n128) = 128
+CREATE (n126)-[:HAS_EFFICACY_OUTCOMES]->(n128);
+
+MATCH (n126), (n129) WHERE id(n126) = 126 AND id(n129) = 129
+CREATE (n126)-[:HAS_SUBGROUP_EFFICACY]->(n129);
+
+MATCH (n130), (n159) WHERE id(n130) = 130 AND id(n159) = 159
+CREATE (n130)-[:HAS_EVENT]->(n159);
+
+MATCH (n130), (n160) WHERE id(n130) = 130 AND id(n160) = 160
+CREATE (n130)-[:HAS_EVENT]->(n160);
+
+MATCH (n130), (n161) WHERE id(n130) = 130 AND id(n161) = 161
+CREATE (n130)-[:HAS_EVENT]->(n161);
+
+MATCH (n130), (n162) WHERE id(n130) = 130 AND id(n162) = 162
+CREATE (n130)-[:HAS_EVENT]->(n162);
+
+MATCH (n130), (n163) WHERE id(n130) = 130 AND id(n163) = 163
+CREATE (n130)-[:HAS_EVENT]->(n163);
+
+MATCH (n130), (n164) WHERE id(n130) = 130 AND id(n164) = 164
+CREATE (n130)-[:HAS_EVENT]->(n164);
+
+MATCH (n130), (n165) WHERE id(n130) = 130 AND id(n165) = 165
+CREATE (n130)-[:HAS_EVENT]->(n165);
+
+MATCH (n130), (n166) WHERE id(n130) = 130 AND id(n166) = 166
+CREATE (n130)-[:HAS_EVENT]->(n166);
+
+MATCH (n130), (n167) WHERE id(n130) = 130 AND id(n167) = 167
+CREATE (n130)-[:HAS_EVENT]->(n167);
+
+MATCH (n130), (n168) WHERE id(n130) = 130 AND id(n168) = 168
+CREATE (n130)-[:HAS_EVENT]->(n168);
+
+MATCH (n130), (n169) WHERE id(n130) = 130 AND id(n169) = 169
+CREATE (n130)-[:HAS_EVENT]->(n169);
+
+MATCH (n130), (n170) WHERE id(n130) = 130 AND id(n170) = 170
+CREATE (n130)-[:HAS_EVENT]->(n170);
+
+MATCH (n130), (n171) WHERE id(n130) = 130 AND id(n171) = 171
+CREATE (n130)-[:HAS_EVENT]->(n171);
+
+MATCH (n130), (n172) WHERE id(n130) = 130 AND id(n172) = 172
+CREATE (n130)-[:HAS_EVENT]->(n172);
+
+MATCH (n130), (n173) WHERE id(n130) = 130 AND id(n173) = 173
+CREATE (n130)-[:HAS_EVENT]->(n173);
+
+MATCH (n130), (n174) WHERE id(n130) = 130 AND id(n174) = 174
+CREATE (n130)-[:HAS_EVENT]->(n174);
+
+MATCH (n130), (n175) WHERE id(n130) = 130 AND id(n175) = 175
+CREATE (n130)-[:HAS_EVENT]->(n175);
+
+MATCH (n130), (n176) WHERE id(n130) = 130 AND id(n176) = 176
+CREATE (n130)-[:HAS_EVENT]->(n176);
+
+MATCH (n130), (n177) WHERE id(n130) = 130 AND id(n177) = 177
+CREATE (n130)-[:HAS_EVENT]->(n177);
+
+MATCH (n130), (n178) WHERE id(n130) = 130 AND id(n178) = 178
+CREATE (n130)-[:HAS_EVENT]->(n178);
+
+MATCH (n130), (n179) WHERE id(n130) = 130 AND id(n179) = 179
+CREATE (n130)-[:HAS_EVENT]->(n179);
+
+MATCH (n130), (n180) WHERE id(n130) = 130 AND id(n180) = 180
+CREATE (n130)-[:HAS_EVENT]->(n180);
+
+MATCH (n130), (n181) WHERE id(n130) = 130 AND id(n181) = 181
+CREATE (n130)-[:HAS_EVENT]->(n181);
+
+MATCH (n130), (n182) WHERE id(n130) = 130 AND id(n182) = 182
+CREATE (n130)-[:HAS_EVENT]->(n182);
+
+MATCH (n130), (n183) WHERE id(n130) = 130 AND id(n183) = 183
+CREATE (n130)-[:HAS_EVENT]->(n183);
+
+MATCH (n130), (n184) WHERE id(n130) = 130 AND id(n184) = 184
+CREATE (n130)-[:HAS_EVENT]->(n184);
+
+MATCH (n186), (n187) WHERE id(n186) = 186 AND id(n187) = 187
+CREATE (n186)-[:HAS_SIMILAR_MOLECULE]->(n187);
+
+MATCH (n186), (n188) WHERE id(n186) = 186 AND id(n188) = 188
+CREATE (n186)-[:HAS_SIMILAR_MOLECULE]->(n188);
+
+MATCH (n186), (n190) WHERE id(n186) = 186 AND id(n190) = 190
+CREATE (n186)-[:HAS_SIMILAR_MOLECULE]->(n190);
+
+MATCH (n186), (n192) WHERE id(n186) = 186 AND id(n192) = 192
+CREATE (n186)-[:HAS_SIMILAR_MOLECULE]->(n192);
+
+MATCH (n186), (n194) WHERE id(n186) = 186 AND id(n194) = 194
+CREATE (n186)-[:HAS_SIMILAR_MOLECULE]->(n194);
+
+MATCH (n196), (n197) WHERE id(n196) = 196 AND id(n197) = 197
+CREATE (n196)-[:HAS_SIGNATURE]->(n197);
+
+MATCH (n196), (n198) WHERE id(n196) = 196 AND id(n198) = 198
+CREATE (n196)-[:HAS_SIGNATURE]->(n198);
+
+MATCH (n196), (n199) WHERE id(n196) = 196 AND id(n199) = 199
+CREATE (n196)-[:HAS_SIGNATURE]->(n199);
+
+MATCH (n196), (n200) WHERE id(n196) = 196 AND id(n200) = 200
+CREATE (n196)-[:HAS_SIGNATURE]->(n200);
+
+MATCH (n196), (n201) WHERE id(n196) = 196 AND id(n201) = 201
+CREATE (n196)-[:HAS_SIGNATURE]->(n201);
+
+MATCH (n196), (n202) WHERE id(n196) = 196 AND id(n202) = 202
+CREATE (n196)-[:HAS_SIGNATURE]->(n202);
+
+MATCH (n196), (n203) WHERE id(n196) = 196 AND id(n203) = 203
+CREATE (n196)-[:HAS_SIGNATURE]->(n203);
+
+MATCH (n197), (n215) WHERE id(n197) = 197 AND id(n215) = 215
+CREATE (n197)-[:HAS_DIFFERENTIAL_EXPRESSION]->(n215);
+
+MATCH (n197), (n216) WHERE id(n197) = 197 AND id(n216) = 216
+CREATE (n197)-[:HAS_DIFFERENTIAL_EXPRESSION]->(n216);
+
+MATCH (n197), (n217) WHERE id(n197) = 197 AND id(n217) = 217
+CREATE (n197)-[:HAS_DIFFERENTIAL_EXPRESSION]->(n217);
+
+MATCH (n197), (n218) WHERE id(n197) = 197 AND id(n218) = 218
+CREATE (n197)-[:HAS_DIFFERENTIAL_EXPRESSION]->(n218);
+
+MATCH (n197), (n219) WHERE id(n197) = 197 AND id(n219) = 219
+CREATE (n197)-[:HAS_DIFFERENTIAL_EXPRESSION]->(n219);
+

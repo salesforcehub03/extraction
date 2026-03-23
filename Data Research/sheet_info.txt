@@ -1,0 +1,78 @@
+=== ALL SHEET NAMES ===
+  0: [experimental design in rats]
+  1: [Clinical Chemistry Parameters]
+  2: [exposure]
+  3: [toxcity]
+  4: [Sheet9]
+  5: [Toxicokinetic parameters dogs]
+  6: [Toxicokinetic parameters Rats]
+  7: [Microscopic Findings in Rats]
+  8: [Microscopic Findings in Dogs]
+
+
+=== SHEET 0: [experimental design in rats] === Full Shape: (7, 9)
+  Row 0: ['C0:Group #', 'C1:PXD101 Dose level (mg/kg/day)', 'C3:Animals/ group']
+  Row 1: ['C3:Terminal', 'C5:Recovery', 'C7:TK Groups']
+  Row 2: ['C3:M', 'C4:F', 'C5:M', 'C6:F', 'C7:M', 'C8:F']
+  Row 3: ['C0:1', 'C1:0', 'C3:10', 'C4:10', 'C5:5', 'C6:5', 'C7:-', 'C8:-']
+  Row 4: ['C0:2', 'C1:10', 'C3:10', 'C4:10', 'C5:-', 'C6:-', 'C7:8', 'C8:8']
+  Row 5: ['C0:3', 'C1:25', 'C3:10', 'C4:10', 'C5:-', 'C6:-', 'C7:8', 'C8:8']
+
+=== SHEET 1: [Clinical Chemistry Parameters] === Full Shape: (7, 7)
+  Row 0: ['C0:Parameter', 'C1:PXD101 Dose (mg/kf/day)']
+  Row 1: ['C1:10', 'C3:25', 'C5:100']
+  Row 2: ['C1:M', 'C2:F', 'C3:M', 'C4:F', 'C5:M', 'C6:F']
+  Row 3: ['C0:Alanine Aminotransferase Cycle 2', 'C1:3.6', 'C2:12.5', 'C3:16.4*', 'C4:10', 'C5:25.5***', 'C6:17.5']
+  Row 4: ['C0:Alanine Aminotransferase Cycle 4', 'C1:6.5', 'C2:0', 'C3:15.2', 'C4:10.3', 'C5:21.7**', 'C6:20.5']
+  Row 5: ['C0:Alanine Aminotransferase Cycle 8', 'C1:12.7', 'C2:0', 'C3:25.5***', 'C4:10.2', 'C5:43.6***', 'C6:30.8**']
+
+=== SHEET 2: [exposure] === Full Shape: (25, 6)
+  Row 0: ['C0:Species', 'C1:Sex', 'C2:Dose_mg_per_kg', 'C3:Day', 'C4:Cmax_ug_per_mL', 'C5:AUC_ug_h_per_mL']
+  Row 1: ['C0:Rat', 'C1:M', 'C2:10', 'C3:1', 'C4:1.14', 'C5:0.27']
+  Row 2: ['C0:Rat', 'C1:M', 'C2:10', 'C3:151', 'C4:2.63', 'C5:0.71']
+  Row 3: ['C0:Rat', 'C1:F', 'C2:10', 'C3:1', 'C4:1.85', 'C5:0.4']
+  Row 4: ['C0:Rat', 'C1:F', 'C2:10', 'C3:151', 'C4:2.48', 'C5:0.53']
+  Row 5: ['C0:Rat', 'C1:M', 'C2:25', 'C3:1', 'C4:3.13', 'C5:0.81']
+
+=== SHEET 3: [toxcity] === Full Shape: (11, 5)
+  Row 0: ['C0:Species', 'C1:Sex', 'C2:Dose_mg_per_kg', 'C3:Toxicity_Metric', 'C4:Value']
+  Row 1: ['C0:Rat', 'C1:M', 'C2:100', 'C3:WBC_change_pct', 'C4:-33.8']
+  Row 2: ['C0:Rat', 'C1:F', 'C2:100', 'C3:WBC_change_pct', 'C4:-30.6']
+  Row 3: ['C0:Rat', 'C1:M', 'C2:100', 'C3:ALT_change_pct', 'C4:-43.6']
+  Row 4: ['C0:Rat', 'C1:F', 'C2:100', 'C3:ALT_change_pct', 'C4:-30.8']
+  Row 5: ['C0:Rat', 'C1:M', 'C2:100', 'C3:Thymus_atrophy_severity', 'C4:3']
+
+=== SHEET 4: [Sheet9] === Full Shape: (0, 0)
+
+=== SHEET 5: [Toxicokinetic parameters dogs] === Full Shape: (9, 8)
+  Row 0: ['C0:PXDI 01 DOS', 'C1:Sex(n=3)', 'C2:Cmax (ug/mL)', 'C5:AUC(0-24h) (ug*h/mL)']
+  Row 1: []
+  Row 2: ['C2:Day 1', 'C3:Day 5', 'C4:Day 151', 'C5:Day', 'C6:Day 5', 'C7:Day 151']
+  Row 3: ['C0:10', 'C1:M', 'C2:2.9', 'C3:2.9', 'C4:4.2', 'C5:1.3', 'C6:1.7', 'C7:2.7']
+  Row 4: ['C1:F', 'C2:3.9', 'C3:4.5', 'C4:3.8', 'C5:1.6', 'C6:2.3', 'C7:2.2']
+  Row 5: ['C0:25', 'C1:M', 'C2:10.5', 'C3:8.3', 'C4:10.3', 'C5:4.3', 'C6:4.2', 'C7:6.1']
+
+=== SHEET 6: [Toxicokinetic parameters Rats] === Full Shape: (9, 9)
+  Row 0: ['C0:Dose Group', 'C1:Dose (mgkg/day)', 'C2:Sex (n=3)', 'C3:Caer (ug/mL)', "C6:AUC(N4b) (pg.h'mL)"]
+  Row 1: []
+  Row 2: ['C3:Day 1', 'C4:Day 5', 'C5:Day 151', 'C6:Day 1', 'C7:Day 5', 'C8:Day 151']
+  Row 3: ['C0:2', 'C1:10', 'C2:M', 'C3:1.14', 'C4:1.25', 'C5:2.63', 'C6:0.27', 'C7:0.28', 'C8:0.71']
+  Row 4: ['C2:F', 'C3:1.85', 'C4:1.64', 'C5:2.48', 'C6:0.4', 'C7:0.39', 'C8:0.53']
+  Row 5: ['C0:3', 'C1:25', 'C2:M', 'C3:3.13', 'C4:4.66', 'C5:7.64', 'C6:0.81', 'C7:0.97', 'C8:2.22']
+
+=== SHEET 7: [Microscopic Findings in Rats] === Full Shape: (19, 14)
+  Row 0: ['C0:PXDIOI Dose (mg/kg/day)', 'C6:Males', 'C10:Females']
+  Row 1: ['C6:0', 'C7:10.0', 'C8:25.0', 'C9:100', 'C10:0', 'C11:10.0', 'C12:25.0', 'C13:100']
+  Row 2: ['C0:Early Decedents']
+  Row 3: ['C0:Number of Animals in Group', 'C6:1', 'C7:0.0', 'C8:0.0', 'C9:4', 'C10:1', 'C11:0.0', 'C12:0.0', 'C13:2']
+  Row 4: ['C0:Heart cardiomyopathy', 'C9:1a']
+  Row 5: ['C0:Spleen Hematopoiesis', 'C9:1a,1b', 'C10:1p', 'C13:1b']
+
+=== SHEET 8: [Microscopic Findings in Dogs] === Full Shape: (26, 9)
+  Row 0: ['C0:PXD101 Dose (mg/kg/day)', 'C1:Ma les', 'C5:Females']
+  Row 1: []
+  Row 2: ['C1:0', 'C2:10.0', 'C3:25.0', 'C4:50', 'C6:10.0', 'C7:25.0', 'C8:50']
+  Row 3: ['C0:Terminal Sacrifice']
+  Row 4: ['C0:Number of Animals in Groups', 'C1:3', 'C2:3.0', 'C3:3.0', 'C4:3', 'C5:3', 'C6:3.0', 'C7:3.0', 'C8:3']
+  Row 5: ['C0:Mesenteric Lymph node -atrophy -lymphangiectasis', 'C4:2a', 'C8:3a,1a']
+

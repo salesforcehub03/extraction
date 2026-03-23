@@ -1,0 +1,12 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.9
+pandas
+openpyxl
+scikit-learn
+azure-ai-documentintelligence
+azure-identity
+openai
+python-dotenv
+pydantic
+gunicorn

@@ -1,0 +1,30 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: dili-backend
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: gunicorn -w 4 -k uvicorn.workers.UvicornWorker backend.main:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      # User needs to add secrets in Render Dashboard:
+      # - AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT
+      # - AZURE_DOCUMENT_INTELLIGENCE_KEY
+      # - OPENAI_API_KEY
+      # - AZURE_OPENAI_API_KEY
+      # - AZURE_OPENAI_ENDPOINT
+
+  # Frontend Static Site
+  - type: static
+    name: dili-frontend
+    env: static
+    buildCommand: cd client && npm install && npm run build
+    staticPublishDir: client/dist
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: https://dili-backend.onrender.com/api/* # User should update this after backend is deployed
+      - type: rewrite
+        source: /*
+        destination: /index.html

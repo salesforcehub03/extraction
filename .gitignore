@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.env2
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Data / Temp
+backend/uploads/
+backend/outputs/
+**/*.json
+!**/package.json
+!**/package-lock.json
+!**/knowledge_graph.json
+cache_*.json
+*.xlsx
+*.pdf
+test_logs.txt
+
+# OS
+.DS_Store
+Thumbs.db

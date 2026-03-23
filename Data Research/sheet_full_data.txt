@@ -1,0 +1,140 @@
+=== SHEET 0: [experimental design in rats] === Shape: (7, 9)
+  Row 0: ['C0:Group #', 'C1:PXD101 Dose level (mg/kg/day)', 'C3:Animals/ group']
+  Row 1: ['C3:Terminal', 'C5:Recovery', 'C7:TK Groups']
+  Row 2: ['C3:M', 'C4:F', 'C5:M', 'C6:F', 'C7:M', 'C8:F']
+  Row 3: ['C0:1', 'C1:0', 'C3:10', 'C4:10', 'C5:5', 'C6:5', 'C7:-', 'C8:-']
+  Row 4: ['C0:2', 'C1:10', 'C3:10', 'C4:10', 'C5:-', 'C6:-', 'C7:8', 'C8:8']
+  Row 5: ['C0:3', 'C1:25', 'C3:10', 'C4:10', 'C5:-', 'C6:-', 'C7:8', 'C8:8']
+  Row 6: ['C0:4', 'C1:100', 'C3:10', 'C4:10', 'C5:5', 'C6:5', 'C7:8', 'C8:8']
+
+
+=== SHEET 1: [Clinical Chemistry Parameters] === Shape: (7, 7)
+  Row 0: ['C0:Parameter', 'C1:PXD101 Dose (mg/kf/day)']
+  Row 1: ['C1:10', 'C3:25', 'C5:100']
+  Row 2: ['C1:M', 'C2:F', 'C3:M', 'C4:F', 'C5:M', 'C6:F']
+  Row 3: ['C0:Alanine Aminotransferase Cycle 2', 'C1:3.6', 'C2:12.5', 'C3:16.4*', 'C4:10', 'C5:25.5***', 'C6:17.5']
+  Row 4: ['C0:Alanine Aminotransferase Cycle 4', 'C1:6.5', 'C2:0', 'C3:15.2', 'C4:10.3', 'C5:21.7**', 'C6:20.5']
+  Row 5: ['C0:Alanine Aminotransferase Cycle 8', 'C1:12.7', 'C2:0', 'C3:25.5***', 'C4:10.2', 'C5:43.6***', 'C6:30.8**']
+  Row 6: ['C0:Recovery', 'C1:ND', 'C2:ND', 'C3:ND', 'C4:ND', 'C5:24.5', 'C6:7.3']
+
+
+=== SHEET 2: [exposure] === Shape: (25, 6)
+  Row 0: ['C0:Species', 'C1:Sex', 'C2:Dose_mg_per_kg', 'C3:Day', 'C4:Cmax_ug_per_mL', 'C5:AUC_ug_h_per_mL']
+  Row 1: ['C0:Rat', 'C1:M', 'C2:10', 'C3:1', 'C4:1.14', 'C5:0.27']
+  Row 2: ['C0:Rat', 'C1:M', 'C2:10', 'C3:151', 'C4:2.63', 'C5:0.71']
+  Row 3: ['C0:Rat', 'C1:F', 'C2:10', 'C3:1', 'C4:1.85', 'C5:0.4']
+  Row 4: ['C0:Rat', 'C1:F', 'C2:10', 'C3:151', 'C4:2.48', 'C5:0.53']
+  Row 5: ['C0:Rat', 'C1:M', 'C2:25', 'C3:1', 'C4:3.13', 'C5:0.81']
+  Row 6: ['C0:Rat', 'C1:M', 'C2:25', 'C3:151', 'C4:7.64', 'C5:2.22']
+  Row 7: ['C0:Rat', 'C1:F', 'C2:25', 'C3:1', 'C4:4.56', 'C5:1.01']
+  Row 8: ['C0:Rat', 'C1:F', 'C2:25', 'C3:151', 'C4:6.15', 'C5:1.76']
+  Row 9: ['C0:Rat', 'C1:M', 'C2:100', 'C3:1', 'C4:14.06', 'C5:5.87']
+  Row 10: ['C0:Rat', 'C1:M', 'C2:100', 'C3:151', 'C4:30.34', 'C5:18.45']
+  Row 11: ['C0:Rat', 'C1:F', 'C2:100', 'C3:1', 'C4:23.87', 'C5:6.81']
+  Row 12: ['C0:Rat', 'C1:F', 'C2:100', 'C3:151', 'C4:37.1', 'C5:12.09']
+  Row 13: ['C0:Dog', 'C1:M', 'C2:10', 'C3:1', 'C4:2.9', 'C5:1.3']
+  Row 14: ['C0:Dog', 'C1:M', 'C2:10', 'C3:151', 'C4:4.2', 'C5:2.7']
+  Row 15: ['C0:Dog', 'C1:F', 'C2:10', 'C3:1', 'C4:3.9', 'C5:1.6']
+  Row 16: ['C0:Dog', 'C1:F', 'C2:10', 'C3:151', 'C4:3.8', 'C5:2.2']
+  Row 17: ['C0:Dog', 'C1:M', 'C2:25', 'C3:1', 'C4:10.5', 'C5:4.3']
+  Row 18: ['C0:Dog', 'C1:M', 'C2:25', 'C3:151', 'C4:10.3', 'C5:6.1']
+  Row 19: ['C0:Dog', 'C1:F', 'C2:25', 'C3:1', 'C4:8.5', 'C5:4.4']
+  Row 20: ['C0:Dog', 'C1:F', 'C2:25', 'C3:151', 'C4:11.2', 'C5:5.8']
+  Row 21: ['C0:Dog', 'C1:M', 'C2:50', 'C3:1', 'C4:17.7', 'C5:9']
+  Row 22: ['C0:Dog', 'C1:M', 'C2:50', 'C3:151', 'C4:21', 'C5:12.5']
+  Row 23: ['C0:Dog', 'C1:F', 'C2:50', 'C3:1', 'C4:20', 'C5:8.7']
+  Row 24: ['C0:Dog', 'C1:F', 'C2:50', 'C3:151', 'C4:23.4', 'C5:13.8']
+
+
+=== SHEET 3: [toxcity] === Shape: (11, 5)
+  Row 0: ['C0:Species', 'C1:Sex', 'C2:Dose_mg_per_kg', 'C3:Toxicity_Metric', 'C4:Value']
+  Row 1: ['C0:Rat', 'C1:M', 'C2:100', 'C3:WBC_change_pct', 'C4:-33.8']
+  Row 2: ['C0:Rat', 'C1:F', 'C2:100', 'C3:WBC_change_pct', 'C4:-30.6']
+  Row 3: ['C0:Rat', 'C1:M', 'C2:100', 'C3:ALT_change_pct', 'C4:-43.6']
+  Row 4: ['C0:Rat', 'C1:F', 'C2:100', 'C3:ALT_change_pct', 'C4:-30.8']
+  Row 5: ['C0:Rat', 'C1:M', 'C2:100', 'C3:Thymus_atrophy_severity', 'C4:3']
+  Row 6: ['C0:Rat', 'C1:F', 'C2:100', 'C3:Thymus_atrophy_severity', 'C4:1']
+  Row 7: ['C0:Rat', 'C1:M', 'C2:100', 'C3:Cardiomyopathy_severity', 'C4:1']
+  Row 8: ['C0:Dog', 'C1:M', 'C2:50', 'C3:Testicular_tubular_atrophy_severity', 'C4:1']
+  Row 9: ['C0:Dog', 'C1:F', 'C2:50', 'C3:Lymph_node_atrophy_severity', 'C4:3']
+  Row 10: ['C0:Dog', 'C1:F', 'C2:50', 'C3:Thymus_atrophy_severity', 'C4:1']
+
+
+=== SHEET 4: [Sheet9] === Shape: (0, 0)
+
+
+=== SHEET 5: [Toxicokinetic parameters dogs] === Shape: (9, 8)
+  Row 0: ['C0:PXDI 01 DOS', 'C1:Sex(n=3)', 'C2:Cmax (ug/mL)', 'C5:AUC(0-24h) (ug*h/mL)']
+  Row 1: []
+  Row 2: ['C2:Day 1', 'C3:Day 5', 'C4:Day 151', 'C5:Day', 'C6:Day 5', 'C7:Day 151']
+  Row 3: ['C0:10', 'C1:M', 'C2:2.9', 'C3:2.9', 'C4:4.2', 'C5:1.3', 'C6:1.7', 'C7:2.7']
+  Row 4: ['C1:F', 'C2:3.9', 'C3:4.5', 'C4:3.8', 'C5:1.6', 'C6:2.3', 'C7:2.2']
+  Row 5: ['C0:25', 'C1:M', 'C2:10.5', 'C3:8.3', 'C4:10.3', 'C5:4.3', 'C6:4.2', 'C7:6.1']
+  Row 6: ['C1:F', 'C2:8.5', 'C3:8.4', 'C4:11.2', 'C5:4.4', 'C6:4.3', 'C7:5.8']
+  Row 7: ['C0:50', 'C1:M', 'C2:17.7', 'C3:18.5', 'C4:21', 'C5:9', 'C6:9.8', 'C7:12.5']
+  Row 8: ['C1:F', 'C2:20', 'C3:20.3', 'C4:23.4', 'C5:8.7', 'C6:9.8', 'C7:13.8']
+
+
+=== SHEET 6: [Toxicokinetic parameters Rats] === Shape: (9, 9)
+  Row 0: ['C0:Dose Group', 'C1:Dose (mgkg/day)', 'C2:Sex (n=3)', 'C3:Caer (ug/mL)', "C6:AUC(N4b) (pg.h'mL)"]
+  Row 1: []
+  Row 2: ['C3:Day 1', 'C4:Day 5', 'C5:Day 151', 'C6:Day 1', 'C7:Day 5', 'C8:Day 151']
+  Row 3: ['C0:2', 'C1:10', 'C2:M', 'C3:1.14', 'C4:1.25', 'C5:2.63', 'C6:0.27', 'C7:0.28', 'C8:0.71']
+  Row 4: ['C2:F', 'C3:1.85', 'C4:1.64', 'C5:2.48', 'C6:0.4', 'C7:0.39', 'C8:0.53']
+  Row 5: ['C0:3', 'C1:25', 'C2:M', 'C3:3.13', 'C4:4.66', 'C5:7.64', 'C6:0.81', 'C7:0.97', 'C8:2.22']
+  Row 6: ['C2:F', 'C3:4.56', 'C4:4.36', 'C5:6.15', 'C6:1.01', 'C7:1.13', 'C8:1.76']
+  Row 7: ['C0:4', 'C1:100', 'C2:M', 'C3:14.06', 'C4:17.71', 'C5:30.34', 'C6:5.87', 'C7:11.07', 'C8:18.45']
+  Row 8: ['C2:F', 'C3:23.87', 'C4:23.65', 'C5:37.1', 'C6:6.81', 'C7:7.17', 'C8:12.09']
+
+
+=== SHEET 7: [Microscopic Findings in Rats] === Shape: (19, 14)
+  Row 0: ['C0:PXDIOI Dose (mg/kg/day)', 'C6:Males', 'C10:Females']
+  Row 1: ['C6:0', 'C7:10', 'C8:25', 'C9:100', 'C10:0', 'C11:10', 'C12:25', 'C13:100']
+  Row 2: ['C0:Early Decedents']
+  Row 3: ['C0:Number of Animals in Group', 'C6:1', 'C7:0', 'C8:0', 'C9:4', 'C10:1', 'C11:0', 'C12:0', 'C13:2']
+  Row 4: ['C0:Heart cardiomyopathy', 'C9:1a']
+  Row 5: ['C0:Spleen Hematopoiesis', 'C9:1a,1b', 'C10:1p', 'C13:1b']
+  Row 6: ['C0:Ovary congesion/hemorrhage', 'C10:1p']
+  Row 7: ['C0:Thymus atrophy -congestion/hemorrhage', 'C9:1a', 'C13:1a']
+  Row 8: ['C0:Tail lesions -phlebitis, dermatitis, edema, hemorrhage', 'C9:2c,1d', 'C13:1c,1d']
+  Row 9: ['C0:Terminal Sacrifice']
+  Row 10: ['C0:Number of Animals in Groups', 'C6:8', 'C7:10', 'C8:10', 'C9:7', 'C10:9', 'C11:10', 'C12:10', 'C13:8']
+  Row 11: ['C0:Heart -inflammatory cell foci', 'C6:1a', 'C10:1a']
+  Row 12: ['C0:Spleen -Hematopoiesis', 'C6:7a,1b', 'C9:5a,1b', 'C10:5a,3b', 'C13:4a,3b,1c']
+  Row 13: ['C0:Testes -tubular atrophy', 'C9:1a']
+  Row 14: ['C0:Thymus -atrophy -congestion/hemorrhage', 'C8:2p', 'C9:3a', 'C13:1p']
+  Row 15: ['C0:Tail lesions - phlebitis, dermatitis, edema, hemorrhage', 'C6:4a', 'C7:7a, 1b', 'C8:6a, 1b', 'C9:3a 3b, 1c', 'C10:4a, 1b', 'C11:4a', 'C12:2a, 1b', 'C13:5a, 3b']
+  Row 16: ['C0:Recovery']
+  Row 17: ['C0:Number of Animals in Group', 'C6:5', 'C7:0', 'C8:0', 'C9:4', 'C10:5', 'C11:0', 'C12:0', 'C13:5']
+  Row 18: ['C0:Heart']
+
+
+=== SHEET 8: [Microscopic Findings in Dogs] === Shape: (26, 9)
+  Row 0: ['C0:PXD101 Dose (mg/kg/day)', 'C1:Ma les', 'C5:Females']
+  Row 1: []
+  Row 2: ['C1:0', 'C2:10', 'C3:25', 'C4:50', 'C6:10', 'C7:25', 'C8:50']
+  Row 3: ['C0:Terminal Sacrifice']
+  Row 4: ['C0:Number of Animals in Groups', 'C1:3', 'C2:3', 'C3:3', 'C4:3', 'C5:3', 'C6:3', 'C7:3', 'C8:3']
+  Row 5: ['C0:Mesenteric Lymph node -atrophy -lymphangiectasis', 'C4:2a', 'C8:3a,1a']
+  Row 6: ['C0:Mandibular Lymph node -atrophy', 'C4:2a', 'C7:2a', 'C8:3a']
+  Row 7: ['C0:Spleen lymphoid atrophy', 'C4:1a', 'C7:2a', 'C8:1a']
+  Row 8: ['C0:Lungs -congestion/hemorrhage     -pneumonitis                       -fibrosing alveolitis              -granuloma', 'C2:1p            1a                 1a', 'C3:1p                          ', 'C4:1p', 'C5:1a', 'C6:1p                                                          1a', 'C8:1p']
+  Row 9: ['C0:Kidney                                    - foal Nephropathy', 'C8:1a']
+  Row 10: ['C0:-inflammatory cell foci', 'C4:1a']
+  Row 11: ['C0:lleum                                -lymphoid atrophy', 'C4:2a', 'C7:1a', 'C8:1a']
+  Row 12: ['C0:Cecum                               -lymphoid atrophy', 'C8:1a']
+  Row 13: ['C0:ovary                            -mature                        -pubescent                  -tubular atrophy ', 'C5:1p               1p                1p ', 'C6:3p', 'C7:3p', 'C8:2p           1a']
+  Row 14: ['C0:Testes                                -mature                               -pubescent                      -tubular atrophy', 'C1:3p                                          1a ', 'C2:1p        2p ', 'C3:1p              2p               1a', 'C4:3p']
+  Row 15: ['C0:Epididymis                        -exfoliated cells ', 'C2:1a,2b', 'C3:1a,2b', 'C4:3b']
+  Row 16: ['C0:Thymus                             -atrophy', 'C4:3a', 'C7:1a', 'C8:1a']
+  Row 17: ['C0:Recovery']
+  Row 18: ['C0:Number of Animals in Groups', 'C1:2', 'C2:0', 'C3:0', 'C4:2', 'C5:2', 'C6:0', 'C7:0', 'C8:2']
+  Row 19: ['C0:Mesenteric Lymph node         -atrophy', 'C8:1a']
+  Row 20: ['C0:Mandibular Lymph node          -atrophy', 'C8:1a']
+  Row 21: ['C0:Spleen                                         -lymphoid atrophy', 'C8:la']
+  Row 22: ['C0:Lungs                                           -congestion/hemorrhage ', 'C4:2p', 'C5:1p              ', 'C8:1b']
+  Row 23: ['C0:Kidney                                          - foal Nephropathy    -inflammatory cell foci', 'C4:1a', 'C8:la']
+  Row 24: ['C0:ovary                                           -mature                        -pubescent                  -immature ', 'C5:1p              1p', 'C8:2p']
+  Row 25: ['C0:Testes']
+
+

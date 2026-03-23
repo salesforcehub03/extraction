@@ -1,0 +1,2636 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY bioportal "http://bioportal.bioontology.org#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY provenance "http://protege.stanford.edu/ontologies/metadata/provenance.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2013/4/9/untitled-ontology-398#"
+     xml:base="http://www.semanticweb.org/ontologies/2013/4/9/untitled-ontology-398"
+     xmlns:provenance="http://protege.stanford.edu/ontologies/metadata/provenance.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:bioportal="http://bioportal.bioontology.org#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2013/4/9/untitled-ontology-398">
+        <provenance:ontologyVersion rdf:datatype="&xsd;string">2011_07_31</provenance:ontologyVersion>
+        <provenance:importDate rdf:datatype="&xsd;dateTime">2013-05-07T16:09:02</provenance:importDate>
+        <provenance:importDate rdf:datatype="&xsd;dateTime">2013-05-08T19:16:03</provenance:importDate>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <provenance:ontologyName rdf:datatype="&xsd;string">DILo Clinical Terms Branch (subset of SNOMED Clinical Terms)</provenance:ontologyName>
+        <provenance:importCreator rdf:datatype="&xsd;string">J Sluka</provenance:importCreator>
+        <rdfs:comment rdf:datatype="&xsd;string">Some of the class names have been changed to correspond to the prefered names in SNOMED of 7/31/2011.
+In DILIo publication -&gt; in this file
+Disorder of liver -&gt; Disease of liver
+Finding of general form of body -&gt; General form of body - finding
+Finding of size of liver -&gt; size of liver - finding
+Subacute necrosis of liver -&gt; subacute hepatic necrosis</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;string">Wang, Y. et al., &quot;A Unifying Ontology to Integrate Histological and Clinical Observations for Drug-Induce Liver Injury&quot;, The American Journal of Pathology, 182:4, 1180-1187 (2013).</rdfs:isDefinedBy>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bioportal.bioontology.org#ontologyId -->
+
+    <owl:AnnotationProperty rdf:about="&bioportal;ontologyId"/>
+    
+
+
+    <!-- http://protege.stanford.edu/ontologies/metadata/provenance.owl#termUrl -->
+
+    <owl:AnnotationProperty rdf:about="&provenance;termUrl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/103618002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/103618002">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic congestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/85804007"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic congestion (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=103618002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/103622007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/103622007">
+        <rdfs:label rdf:datatype="&xsd;string">Mild inflammation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/257552002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Mild inflammation (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=103622007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/106080006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/106080006">
+        <rdfs:label rdf:datatype="&xsd;string">Digestive system finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/118234003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Digestive system finding (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Digestive system observation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">GIT - Gastrointestinal</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Gastrointestinal tract observation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/107658001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/107658001">
+        <rdfs:label rdf:datatype="&xsd;string">Mechanical abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Mechanical abnormality (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=107658001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/107666005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/107666005">
+        <rdfs:label rdf:datatype="&xsd;string">Fluid disturbance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107658001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Fluid disturbance (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=107666005</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/107669003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/107669003">
+        <rdfs:label rdf:datatype="&xsd;string">Degenerative abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Degenerative abnormality (morphologic abnormality)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/107670002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/107670002">
+        <rdfs:label rdf:datatype="&xsd;string">Lysis AND/OR resorbed tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107669003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Lysis AND/OR resorbed tissue (morphologic abnormality)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/107673000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/107673000">
+        <rdfs:label rdf:datatype="&xsd;string">Cellular AND/OR subcellular abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Cellular AND/OR subcellular abnormality (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=107673000</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/107682006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/107682006">
+        <rdfs:label rdf:datatype="&xsd;string">Fibrosis AND/OR repair abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrosis AND/OR repair abnormality (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=107682006</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/109841003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/109841003">
+        <rdfs:label rdf:datatype="&xsd;string">Liver cell carcinoma (clinical)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/408646000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/95214007"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">HCC - Hepatocellular carcinoma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatocarcinoma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatocellular carcinoma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatocellular carcinoma (clinical)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">LCC - Liver cell carcinoma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver carcinoma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver cell carcinoma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver cell carcinoma (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant hepatoma</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/111373008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/111373008">
+        <rdfs:label rdf:datatype="&xsd;string">Pericholangitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/82403002"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Pericholangitis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Pericholangitis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/112674009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/112674009">
+        <rdfs:label rdf:datatype="&xsd;string">Fibrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107682006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Desmoplasia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibroplasia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibroplasia, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrosis (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrosis, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrous repair</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrous replacement</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrous thickening</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=112674009</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/116023004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/116023004">
+        <rdfs:label rdf:datatype="&xsd;string">Abnormal cell structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107673000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Abnormal cell structure (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=116023004</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/118222006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/118222006">
+        <rdfs:label rdf:datatype="&xsd;string">General finding of observation of patient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/250171008"/>
+        <rdfs:comment rdf:datatype="&xsd;string">General condition of patient</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">General finding of observation of patient (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">General observation of patient</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">General patient finding</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/118234003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/118234003">
+        <rdfs:label rdf:datatype="&xsd;string">Finding by site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/404684003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding by site (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/118956008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/118956008">
+        <rdfs:label rdf:datatype="&xsd;string">Morphologically altered structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123037004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Body structure, altered from its original anatomical structure</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Body structure, altered from its original anatomical structure (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Morphologic alteration</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Morphologic change</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/123037004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/123037004">
+        <rdfs:label rdf:datatype="&xsd;string">Body structure</rdfs:label>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Body structure (body structure)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Body structures</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/123397009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/123397009">
+        <rdfs:label rdf:datatype="&xsd;string">Injury of anatomical site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123946008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/417163006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury of anatomical site (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/123946008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/123946008">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder by body site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/118234003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease by body site</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease by body site (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder by body site (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125360002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125360002">
+        <rdfs:label rdf:datatype="&xsd;string">Confluent necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Confluent necrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=125360002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125430006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125430006">
+        <rdfs:label rdf:datatype="&xsd;string">Giant mitochondria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/116023004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Giant mitochondria (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=125430006</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125555002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125555002">
+        <rdfs:label rdf:datatype="&xsd;string">Focal proliferation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/30217000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Focal proliferation (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=125555002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125564007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125564007">
+        <rdfs:label rdf:datatype="&xsd;string">Diffuse fibrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/112674009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Diffuse fibrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=125564007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128069005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128069005">
+        <rdfs:label rdf:datatype="&xsd;string">Injury of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/48125009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Abdominal injury</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury of abdomen (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128070006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128070006">
+        <rdfs:label rdf:datatype="&xsd;string">Infectious disease of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/301810000"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Abdominal infection</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infection of abdomen</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infectious disease of abdomen (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infectious disorder of abdomen</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128139000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128139000">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammatory disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory disease</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory disorder (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128241005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128241005">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammatory disease of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363169009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/373407002"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatitis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory disease of liver (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory disorder of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory liver disease</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128284006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128284006">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic digestive system disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/27624003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic digestive system disorder (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic disease of digestive system</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic disorder of digestive system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128294001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128294001">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic inflammatory disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128139000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/27624003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic inflammatory disease</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic inflammatory disorder (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128482007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128482007">
+        <rdfs:label rdf:datatype="&xsd;string">Acute inflammatory disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128139000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/2704003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute inflammatory disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute inflammatory disorder</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128487001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128487001">
+        <rdfs:label rdf:datatype="&xsd;string">Acute disease of cardiovascular system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/2704003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute cardiovascular disease</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute cardiovascular disorder</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute disease of cardiovascular system (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute disorder of cardiovascular system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128561003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128561003">
+        <rdfs:label rdf:datatype="&xsd;string">Granulomatous disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128139000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder characterised by granuloma formation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder characterized by granuloma formation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder characterized by granuloma formation (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Granulomatous disease</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128998007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128998007">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammatory disorder of the cardiovascular system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363171009"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory disorder of the cardiovascular system (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/13331008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/13331008">
+        <rdfs:label rdf:datatype="&xsd;string">Atrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107669003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Atrophic</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Atrophy (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Atrophy, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Simple atrophy</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=13331008</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/14783006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/14783006">
+        <rdfs:label rdf:datatype="&xsd;string">Hyperbilirubinemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/80006005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Bilirubinaemia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Bilirubinemia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperbilirubinaemia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperbilirubinemia (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperbilirubinemia, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/154757004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/154757004">
+        <rdfs:label rdf:datatype="&xsd;string">Acidosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/26436007"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Acidosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acidosis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/15904002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/15904002">
+        <rdfs:label rdf:datatype="&xsd;string">Bridging necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Bridging necrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=15904002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/17349007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/17349007">
+        <rdfs:label rdf:datatype="&xsd;string">Portal triaditis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128998007"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Portal triaditis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Portal triaditis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/18165001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/18165001">
+        <rdfs:label rdf:datatype="&xsd;string">Jaundice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/404684003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Icteric</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Icterus</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Icterus, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Jaundice (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Jaundice, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Jaundiced</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/188366002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/188366002">
+        <rdfs:label rdf:datatype="&xsd;string">Malignant neoplasm of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363346000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of abdomen (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumor of abdomen</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumor of abdomen (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumour of abdomen</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/19438006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/19438006">
+        <rdfs:label rdf:datatype="&xsd;string">Feathery degeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33359002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Feathery degeneration (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=19438006</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/19660004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/19660004">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of soft tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123946008"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of soft tissue (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of soft tissue, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Soft tissue disorder</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197269008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197269008">
+        <rdfs:label rdf:datatype="&xsd;string">Acute necrosis of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/87248009"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute necrosis of liver (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute yellow atrophy</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute yellow atrophy of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Massive hepatic necrosis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197274000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197274000">
+        <rdfs:label rdf:datatype="&xsd;string">Subacute hepatic necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/87248009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Subacute necrosis of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Subacute necrosis of liver (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197284004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197284004">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic active hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/76783007"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Autoimmune chronic active hepatitis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Autoimmune hepatitis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">CAH - Chronic active hepatitis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">CAH - Chronic aggressive hepatitis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic active hepatitis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197321007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197321007">
+        <rdfs:label rdf:datatype="&xsd;string">Steatosis of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/362975008"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Fatty liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic lipidosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Steatosis of liver (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/19943007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/19943007">
+        <rdfs:label rdf:datatype="&xsd;string">Cirrhosis of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/62484002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/65860006"/>
+        <rdfs:comment rdf:datatype="&xsd;string">CL - Cirrhosis of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cirrhosis of liver (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cirrhosis of liver without mention of alcohol</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cirrhosis of liver, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic cirrhosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic cirrhosis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/20376005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/20376005">
+        <rdfs:label rdf:datatype="&xsd;string">Benign neoplastic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/55342001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplastic disease (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/20663007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/20663007">
+        <rdfs:label rdf:datatype="&xsd;string">Apoptosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/118956008"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Apoptosis (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Gene-directed cell death</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/20719006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/20719006">
+        <rdfs:label rdf:datatype="&xsd;string">Extrahepatic cholestasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/300339003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Extrahepatic cholestasis (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/20894005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/20894005">
+        <rdfs:label rdf:datatype="&xsd;string">Mallory bodies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/116023004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Alcoholic hyalin</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Mallory bodies (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=20894005</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21453001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21453001">
+        <rdfs:label rdf:datatype="&xsd;string">Massive necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Massive necrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=21453001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21861000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21861000">
+        <rdfs:label rdf:datatype="&xsd;string">Micronodular cirrhosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/19943007"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Micronodular cirrhosis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/231287002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/231287002">
+        <rdfs:label rdf:datatype="&xsd;string">Infiltration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107658001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Infiltration (procedure)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infiltrations</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infiltrations (procedure)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=231287002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/235856003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/235856003">
+        <rdfs:label rdf:datatype="&xsd;string">Disease of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249565005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/399902003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of liver (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatopathy</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">LD - Liver disease</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver disease</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/235859005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/235859005">
+        <rdfs:label rdf:datatype="&xsd;string">Liver disorder due to infection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128070006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/312158001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Infectious disease of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver disorder due to infection (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/235862008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/235862008">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatitis due to infection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235859005"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatitis due to infection (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/235890007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/235890007">
+        <rdfs:label rdf:datatype="&xsd;string">Autoimmune liver disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Autoimmune liver disease (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/238138001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/238138001">
+        <rdfs:label rdf:datatype="&xsd;string">Excess intake of micronutrients</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/302872003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Excess intake of micronutrients (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/238145001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/238145001">
+        <rdfs:label rdf:datatype="&xsd;string">Trace element excess</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/238138001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Trace element excess (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/239551005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/239551005">
+        <rdfs:label rdf:datatype="&xsd;string">Cytolysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/13331008"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Cytolysis (morphologic abnormality)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/239953001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/239953001">
+        <rdfs:label rdf:datatype="&xsd;string">Soft tissue lesion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/19660004"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Soft tissue lesion (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/243978007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/243978007">
+        <rdfs:label rdf:datatype="&xsd;string">Liver damage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver damage (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/2492009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/2492009">
+        <rdfs:label rdf:datatype="&xsd;string">Nutritional disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of nutrition</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malnutrition</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nutritional disease</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nutritional disease, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nutritional disorder (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nutritional disorder, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/249565005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/249565005">
+        <rdfs:label rdf:datatype="&xsd;string">Liver finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/106080006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver finding (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver observation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/250171008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/250171008">
+        <rdfs:label rdf:datatype="&xsd;string">Clinical history and observation findings</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/404684003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Clinical history and observation findings (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Clinical history and observations</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25322007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25322007">
+        <rdfs:label rdf:datatype="&xsd;string">Dilatation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107658001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Dilatation (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Dilatation, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Dilation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Distension</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Distension, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Distention</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Distention, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Ectasia</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=25322007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/255061006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/255061006">
+        <rdfs:label rdf:datatype="&xsd;string">Benign neoplasm of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/92454000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplasm of abdomen (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign tumor of abdomen</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign tumor of abdomen (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign tumour of abdomen</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/255077007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/255077007">
+        <rdfs:label rdf:datatype="&xsd;string">Malignant tumor of digestive organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363346000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumor of digestive organ (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumour of digestive organ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/255167007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/255167007">
+        <rdfs:label rdf:datatype="&xsd;string">Benign tumor of digestive organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/20376005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign tumor of digestive organ (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign tumour of digestive organ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/255287002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/255287002">
+        <rdfs:label rdf:datatype="&xsd;string">Hypertrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/442021009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/57697001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Hypertrophic</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hypertrophy (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hypertrophy [dup] (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=255287002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/257552002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/257552002">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/409774005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammation (qualifier value)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=257552002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25998009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25998009">
+        <rdfs:label rdf:datatype="&xsd;string">Metabolic acidosis, increased anion gap (IAG)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/59455009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic acidosis, increased anion gap (IAG) (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic acidosis, increased anion gap (IAG), NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/26036001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/26036001">
+        <rdfs:label rdf:datatype="&xsd;string">Obstruction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107658001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Block</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Block, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Obstruction (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Obstruction, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Occlusion</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Occlusion, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=26036001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/26436007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/26436007">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of acid-base balance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/75934005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of acid-base balance (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of acid-base balance, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disturbance of acid-base balance</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disturbance of acid-base balance, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/2704003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/2704003">
+        <rdfs:label rdf:datatype="&xsd;string">Acute disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute disease, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Any disease of sudden onset AND/OR short duration</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/271590003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/271590003">
+        <rdfs:label rdf:datatype="&xsd;string">Obese build</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/366209005"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Fat build</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Obese build (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/27624003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/27624003">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic disease, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/276879000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/276879000">
+        <rdfs:label rdf:datatype="&xsd;string">Hydropic degeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33359002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Hydatidiform degeneration</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hydropic change</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hydropic degeneration (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Molar degeneration</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=276879000</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/27925004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/27925004">
+        <rdfs:label rdf:datatype="&xsd;string">Nodule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/4147007"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">A 1 to 5 cm firm lesion raised above the surface of the surrounding skin; differs from a papule only in size</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nodule (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nodule, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=27925004</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/27942005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/27942005">
+        <rdfs:label rdf:datatype="&xsd;string">Shock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128487001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute circulatory failure</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Circulatory collapse</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Peripheral circulatory failure</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Peripheral vascular failure</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Peripheral vascular shutdown</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Shock (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Shock - physiological</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Shock, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/282007005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/282007005">
+        <rdfs:label rdf:datatype="&xsd;string">Gastrointestinal and digestive injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123397009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/417746004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Gastrointestinal and digestive injury (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/284005003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/284005003">
+        <rdfs:label rdf:datatype="&xsd;string">Abdominal cavity injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128069005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/284346004"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Abdominal cavity injury (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/284346004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/284346004">
+        <rdfs:label rdf:datatype="&xsd;string">Injury of body cavity structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123397009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/399902003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/417746004"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury of body cavity structure (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/29094004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/29094004">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of porphyrin metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/75934005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of porphyrin and haem metabolism</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of porphyrin and heme metabolism</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of porphyrin metabolism (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of porphyrin metabolism, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/29185008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/29185008">
+        <rdfs:label rdf:datatype="&xsd;string">Fatty degeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33359002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Fatty change</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fatty degeneration (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fatty metamorphosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Lipoid degeneration</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Steatosis</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=29185008</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/300324004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/300324004">
+        <rdfs:label rdf:datatype="&xsd;string">Finding of appearance of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249565005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding of appearance of liver (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Observation of appearance of liver</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/300325003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/300325003">
+        <rdfs:label rdf:datatype="&xsd;string">Small liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/366253000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Small liver (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/300339003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/300339003">
+        <rdfs:label rdf:datatype="&xsd;string">Finding of biliary tract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/106080006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding of biliary tract (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Observation of biliary tract</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/301305006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/301305006">
+        <rdfs:label rdf:datatype="&xsd;string">Finding of general observation of appearance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/118222006"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding of general observation of appearance (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">General observation of appearance</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/301810000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/301810000">
+        <rdfs:label rdf:datatype="&xsd;string">Infection by site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123946008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/40733004"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Infection by site (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/30217000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/30217000">
+        <rdfs:label rdf:datatype="&xsd;string">Proliferation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/57697001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Proliferation (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Proliferation, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=30217000</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/302872003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/302872003">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of hyperalimentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/2492009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of hyperalimentation (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Overfed</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Overnutrition</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/30750004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/30750004">
+        <rdfs:label rdf:datatype="&xsd;string">Lysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107670002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Cytolysis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cytolysis, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Lysis (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Lysis, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=30750004</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/30913008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/30913008">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of iron metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/45744005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of iron metabolism (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of iron metabolism, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/312130009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/312130009">
+        <rdfs:label rdf:datatype="&xsd;string">Viral infection by site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/301810000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/34014006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral infection by site (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/312158001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/312158001">
+        <rdfs:label rdf:datatype="&xsd;string">Infection of digestive system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/301810000"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Infection of digestive system (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/31313009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/31313009">
+        <rdfs:label rdf:datatype="&xsd;string">Bridging fibrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/112674009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Bridging fibrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=31313009</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/3139003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/3139003">
+        <rdfs:label rdf:datatype="&xsd;string">Ballooning degeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33359002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Ballooning degeneration (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=3139003</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/32408007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/32408007">
+        <rdfs:label rdf:datatype="&xsd;string">Piecemeal necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Piecemeal necrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=32408007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/33359002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/33359002">
+        <rdfs:label rdf:datatype="&xsd;string">Degeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107669003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Degeneration (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Degeneration, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Degenerative change</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=33359002</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/33688009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/33688009">
+        <rdfs:label rdf:datatype="&xsd;string">Cholestasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249565005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Bile stasis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Bile stasis, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholestasis (finding)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholestasis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/34014006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/34014006">
+        <rdfs:label rdf:datatype="&xsd;string">Viral disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/40733004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease caused by virus</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease caused by virus, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease due to virus</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral disease, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral illness</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral illness, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral infection</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral infection, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral infectious disease</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral infectious disease, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/34636005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/34636005">
+        <rdfs:label rdf:datatype="&xsd;string">Regeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/57697001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Regeneration (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Regeneration, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=34636005</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/35571009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35571009">
+        <rdfs:label rdf:datatype="&xsd;string">Cholangiolitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370489002"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholangiolitis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholangiolitis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/36195005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/36195005">
+        <rdfs:label rdf:datatype="&xsd;string">Nodular hyperplasia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/76197007"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperplastic nodule</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nodular hyperplasia (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nodular regenerative hyperplasia</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=36195005</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/362965005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/362965005">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of body system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123946008"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of body system (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/362975008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/362975008">
+        <rdfs:label rdf:datatype="&xsd;string">Degenerative disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Degenerative disorder (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/363169009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/363169009">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammation of specific body organs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363170005"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammation of specific body organs (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/363170005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/363170005">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammation of specific body structures or tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123946008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128139000"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammation of specific body structures or tissue (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/363171009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/363171009">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammation of specific body systems</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363170005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/399902003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammation of specific body systems (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/363346000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/363346000">
+        <rdfs:label rdf:datatype="&xsd;string">Malignant neoplastic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/55342001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">CA - Cancer</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cancer</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplastic disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumor</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumor (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumour</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/366100000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/366100000">
+        <rdfs:label rdf:datatype="&xsd;string">General form of body - finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/301305006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding of general form of body</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding of general form of body (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/366209005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/366209005">
+        <rdfs:label rdf:datatype="&xsd;string">Physique finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/366100000"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Physique finding (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/366253000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/366253000">
+        <rdfs:label rdf:datatype="&xsd;string">Size of liver - finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/300324004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding of size of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Finding of size of liver (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/36850000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/36850000">
+        <rdfs:label rdf:datatype="&xsd;string">Retention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107658001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Content retention</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Content retention, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Retention (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Retention, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=36850000</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/370489002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370489002">
+        <rdfs:label rdf:datatype="&xsd;string">Cholangiohepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/82403002"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholangiohepatitis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/372087000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/372087000">
+        <rdfs:label rdf:datatype="&xsd;string">Primary malignant neoplasm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363346000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Primary malignant neoplasm (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/373407002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/373407002">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammatory disorder of digestive system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363171009"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory disorder of digestive system (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/3738000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/3738000">
+        <rdfs:label rdf:datatype="&xsd;string">Viral hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235862008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/312130009"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Unspecified viral hepatitis without mention of hepatic coma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">VH - Viral hepatitis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral hepatitis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Viral hepatitis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/37782003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/37782003">
+        <rdfs:label rdf:datatype="&xsd;string">Damage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Damage (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Damage, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Tissue damage</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Tissue damage, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=37782003</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/37871000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/37871000">
+        <rdfs:label rdf:datatype="&xsd;string">Acute hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128482007"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute hepatitis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Acute hepatitis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/38139006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/38139006">
+        <rdfs:label rdf:datatype="&xsd;string">Septal fibrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/112674009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Septal fibrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=38139006</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/39011001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/39011001">
+        <rdfs:label rdf:datatype="&xsd;string">Hemosiderosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/60737008"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Haemosiderosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Haemosiderosis, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hemosiderosis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hemosiderosis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/39400004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/39400004">
+        <rdfs:label rdf:datatype="&xsd;string">Injury of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/282007005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/284005003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic injury</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic injury, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic trauma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury of liver (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury of liver, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/399902003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/399902003">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of body cavity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123946008"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of body cavity (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/399981008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/399981008">
+        <rdfs:label rdf:datatype="&xsd;string">Neoplasm and/or hamartoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Neoplasm and/or hamartoma (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/404684003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/404684003">
+        <rdfs:label rdf:datatype="&xsd;string">Clinical finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Clinical finding (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/40733004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/40733004">
+        <rdfs:label rdf:datatype="&xsd;string">Infectious disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease due to infection</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder due to infection</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infection</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infection, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infectious disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infectious disease, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Infective disorder</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/408335007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/408335007">
+        <rdfs:label rdf:datatype="&xsd;string">Autoimmune hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235890007"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Autoimmune hepatitis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/408646000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/408646000">
+        <rdfs:label rdf:datatype="&xsd;string">Adenocarcinoma of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/443961001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/93870000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Adenocarcinoma of liver (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/409774005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/409774005">
+        <rdfs:label rdf:datatype="&xsd;string">Inflammatory morphology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Inflammatory morphology (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=409774005</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/409775006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/409775006">
+        <rdfs:label rdf:datatype="&xsd;string">Granulomatous inflammatory morphology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/409774005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Granulomatous inflammatory morphology (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=409775006</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/409777003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/409777003">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic inflammatory morphology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/409774005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic inflammatory morphology (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=409777003</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/4147007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/4147007">
+        <rdfs:label rdf:datatype="&xsd;string">Mass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Localised mass</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Localized mass</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Localized mass, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Lump</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Lump, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Mass (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Mass, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/417163006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/417163006">
+        <rdfs:label rdf:datatype="&xsd;string">Traumatic AND/OR non-traumatic injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder resulting from physical damage to the body</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Traumatic AND/OR non-traumatic injury (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/417746004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/417746004">
+        <rdfs:label rdf:datatype="&xsd;string">Traumatic injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/417163006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder resulting from physical damage to the body</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury - disorder</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Trauma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Traumatic injury (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/423946005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/423946005">
+        <rdfs:label rdf:datatype="&xsd;string">Remnant of necrotic cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/116023004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Remnant of necrotic cell (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=423946005</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/427044009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/427044009">
+        <rdfs:label rdf:datatype="&xsd;string">Fulminant hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Fulminant hepatitis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/43904005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/43904005">
+        <rdfs:label rdf:datatype="&xsd;string">Macronodular cirrhosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/19943007"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hypertrophic portal cirrhosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Macronodular cirrhosis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Multilobar cirrhosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Multiobar cirrhosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">PNC - Postnecrotic cirrhosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Postnecrotic cirrhosis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/442021009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/442021009">
+        <rdfs:label rdf:datatype="&xsd;string">Enlargement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Enlargement (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=442021009</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/442191002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/442191002">
+        <rdfs:label rdf:datatype="&xsd;string">Steatohepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/197321007"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Steatohepatitis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/443961001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/443961001">
+        <rdfs:label rdf:datatype="&xsd;string">Malignant adenomatous neoplasm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363346000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Adenocarcinoma</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant adenomatous neoplasm (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/448675008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/448675008">
+        <rdfs:label rdf:datatype="&xsd;string">Malignant neoplasm of digestive system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363346000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Cancer of digestive system</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of digestive system (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/45744005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/45744005">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of mineral metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/75934005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of mineral metabolism (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of mineral metabolism, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/45752008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/45752008">
+        <rdfs:label rdf:datatype="&xsd;string">Fatty infiltration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/46595003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Fatty infiltration (morphologic abnormality)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/46283004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/46283004">
+        <rdfs:label rdf:datatype="&xsd;string">Perivascular fibrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/112674009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Perivascular fibrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=46283004</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/4637005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/4637005">
+        <rdfs:label rdf:datatype="&xsd;string">Intrahepatic cholestasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/300339003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33688009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Intrahepatic cholestasis (finding)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/46595003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/46595003">
+        <rdfs:label rdf:datatype="&xsd;string">Deposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107669003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Deposit</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Deposit, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Deposition (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Deposition, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/48125009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/48125009">
+        <rdfs:label rdf:datatype="&xsd;string">Injury of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123397009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/417746004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury of trunk (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Injury of trunk, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Truncal injury</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/48866007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/48866007">
+        <rdfs:label rdf:datatype="&xsd;string">Bile cast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/36850000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Bile cast (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Bile plug</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Inspissated bile</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=48866007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/50673007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/50673007">
+        <rdfs:label rdf:datatype="&xsd;string">Cytologic atypia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107673000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Atypical cell present</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Atypical cell present, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cytologic atypia (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cytologic atypia, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=50673007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/50960005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/50960005">
+        <rdfs:label rdf:datatype="&xsd;string">Hemorrhage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107658001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Bleeding</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Bleeding, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Blood loss</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Extravasation of blood</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Haemorrhage</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Haemorrhage, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hemorrhage (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hemorrhage, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=50960005</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/51294009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/51294009">
+        <rdfs:label rdf:datatype="&xsd;string">Metabolic acidosis, IAG, accumulation of organic acids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25998009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic acidosis, IAG, accumulation of organic acids (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/51404004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/51404004">
+        <rdfs:label rdf:datatype="&xsd;string">Fibrous bands</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/112674009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Ainhum</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrous bands (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=51404004</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/52739002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/52739002">
+        <rdfs:label rdf:datatype="&xsd;string">Focal necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Focal necrosis (morphologic abnormality)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/55294001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/55294001">
+        <rdfs:label rdf:datatype="&xsd;string">Focal hepatic necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/87248009"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Focal hepatic necrosis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/55342001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/55342001">
+        <rdfs:label rdf:datatype="&xsd;string">Neoplastic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/399981008"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">NG - Neoplastic growth</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">NG - New growth</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Neoplasia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Neoplastic disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Neoplastic disease, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Neoplastic growth</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Neoplastic syndrome</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Neoplastic syndrome, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">New growth</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/57697001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/57697001">
+        <rdfs:label rdf:datatype="&xsd;string">Growth alteration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disturbance of growth</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disturbance of growth, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Growth alteration (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Growth alteration, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=57697001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/58008004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/58008004">
+        <rdfs:label rdf:datatype="&xsd;string">Peliosis hepatis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/239953001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic peliosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">PH - Peliosis hepatis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Peliosis hepatis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Telangiectasis of liver</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/59455009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/59455009">
+        <rdfs:label rdf:datatype="&xsd;string">Metabolic acidosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/154757004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic acidosis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic acidosis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/59848001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/59848001">
+        <rdfs:label rdf:datatype="&xsd;string">Obstructive hyperbilirubinemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/9326001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Obstructive hyperbilirubinaemia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Obstructive hyperbilirubinemia (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Obstructive jaundice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/59927004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/59927004">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatic failure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic failure (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic failure, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic insufficiency</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic insufficiency, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver decompensation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver decompensation, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver failure</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver function failure</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver function failure, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/60737008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/60737008">
+        <rdfs:label rdf:datatype="&xsd;string">Iron overload</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/238145001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/30913008"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Increased storage iron</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Iron excess</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Iron overload (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Iron overload, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/62484002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/62484002">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatic fibrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Fibrosis of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic fibrosis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic fibrosis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/64572001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64572001">
+        <rdfs:label rdf:datatype="&xsd;string">Disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/404684003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Clinical disease AND/OR syndrome</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Clinical disease AND/OR syndrome present</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Clinical disease or syndrome present, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Clinical disease or syndrome, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease AND/OR syndrome present</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease or syndrome present, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disease, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Diseases</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorders</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Syndrome</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Syndrome, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/64770007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64770007">
+        <rdfs:label rdf:datatype="&xsd;string">Nodular regeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/34636005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Nodular regeneration (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nodular regeneration, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=64770007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/6574001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/6574001">
+        <rdfs:label rdf:datatype="&xsd;string">Necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/37782003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Cellular necrosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cellular necrosis, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Necrosis (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Necrosis, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Tissue devitalisation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Tissue devitalization</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=6574001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/65860006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/65860006">
+        <rdfs:label rdf:datatype="&xsd;string">Liver regeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver regeneration (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Nodular regenerative hyperplasia of liver</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/68282007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/68282007">
+        <rdfs:label rdf:datatype="&xsd;string">Granular degeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33359002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Albuminoid degeneration</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Albuminous degeneration</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cloudy swelling</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Floccular degeneration</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Granular degeneration (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Parenchymatous degeneration</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=68282007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/6855001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/6855001">
+        <rdfs:label rdf:datatype="&xsd;string">Macronucleus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/50673007"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Karyomegaly</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Macronucleus (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=6855001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/69265003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/69265003">
+        <rdfs:label rdf:datatype="&xsd;string">Zonal necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Zonal necrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=69265003</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/75694006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/75694006">
+        <rdfs:label rdf:datatype="&xsd;string">Pancreatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363169009"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Pancreatitis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Pancreatitis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/75934005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/75934005">
+        <rdfs:label rdf:datatype="&xsd;string">Metabolic disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64572001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">MD - Metabolic disorders</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic disease (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic disease, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic disorder</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Metabolic disorder, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/76197007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/76197007">
+        <rdfs:label rdf:datatype="&xsd;string">Hyperplasia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/57697001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Cellular proliferation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hypercellularity</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperplasia (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperplasia, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=76197007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/76319000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/76319000">
+        <rdfs:label rdf:datatype="&xsd;string">Diffuse necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Diffuse necrosis (morphologic abnormality)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/76409007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/76409007">
+        <rdfs:label rdf:datatype="&xsd;string">Fatty deposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/46595003"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Fatty deposition (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Fatty deposition, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Lipid deposition</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/76783007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/76783007">
+        <rdfs:label rdf:datatype="&xsd;string">Chronic hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128294001"/>
+        <rdfs:comment rdf:datatype="&xsd;string">CH - Chronic hepatitis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic hepatitis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Chronic hepatitis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/80006005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/80006005">
+        <rdfs:label rdf:datatype="&xsd;string">Disorder of bilirubin metabolism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/29094004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of bilirubin metabolism (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Disorder of bilirubin metabolism, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/80515008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/80515008">
+        <rdfs:label rdf:datatype="&xsd;string">Large liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatomegaly</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Large liver (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/82403002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/82403002">
+        <rdfs:label rdf:datatype="&xsd;string">Cholangitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/363169009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/373407002"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholangitis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholangitis, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/84995008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/84995008">
+        <rdfs:label rdf:datatype="&xsd;string">Focal degeneration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33359002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Focal degeneration (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=84995008</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/85804007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/85804007">
+        <rdfs:label rdf:datatype="&xsd;string">Congestion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/107666005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Congestion (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Congestion, NOS</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=85804007</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/86514004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/86514004">
+        <rdfs:label rdf:datatype="&xsd;string">Granulomatous hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128561003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Granulomatous hepatitis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/87248009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/87248009">
+        <rdfs:label rdf:datatype="&xsd;string">Hepatic necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/123397009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/235856003"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Hepatic necrosis (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver necrosis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/88880001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/88880001">
+        <rdfs:label rdf:datatype="&xsd;string">Hemorrhagic necrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/6574001"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Haemorrhagic necrosis</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Hemorrhagic necrosis (morphologic abnormality)</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=88880001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/91043001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/91043001">
+        <rdfs:label rdf:datatype="&xsd;string">Vacuolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/116023004"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Vacuolation (morphologic abnormality)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Vacuolisation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Vacuolization</rdfs:comment>
+        <provenance:termUrl rdf:datatype="&xsd;string">http://bioportal.bioontology.org/visualize/46896?conceptid=91043001</provenance:termUrl>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/91273001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/91273001">
+        <rdfs:label rdf:datatype="&xsd;string">Lactic acidosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/51294009"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Lactic acidosis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/92153000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/92153000">
+        <rdfs:label rdf:datatype="&xsd;string">Benign neoplasm of intra-abdominal organs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/255061006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplasm of intra-abdominal organs (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplasm of intra-abdominal organs, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/92186001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/92186001">
+        <rdfs:label rdf:datatype="&xsd;string">Benign neoplasm of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/255167007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/92153000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplasm of liver (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplasm of liver, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign tumor of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign tumour of liver</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/92454000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/92454000">
+        <rdfs:label rdf:datatype="&xsd;string">Benign neoplasm of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/20376005"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplasm of trunk (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Benign neoplasm of trunk, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/9326001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/9326001">
+        <rdfs:label rdf:datatype="&xsd;string">Conjugated hyperbilirubinemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/14783006"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Conjugated hyperbilirubinaemia</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Conjugated hyperbilirubinemia (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Conjugated hyperbilirubinemia, NOS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/93839008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/93839008">
+        <rdfs:label rdf:datatype="&xsd;string">Primary malignant neoplasm of intra-abdominal organs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/188366002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/94111002"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of intra-abdominal organs</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of intra-abdominal organs, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Primary malignant neoplasm of intra-abdominal organs (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/93870000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/93870000">
+        <rdfs:label rdf:datatype="&xsd;string">Malignant neoplasm of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/188366002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/255077007"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">CA - Liver cancer</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Liver cancer</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of liver (disorder)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of liver, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumor of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant tumour of liver</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Primary malignant neoplasm of liver</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/94111002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/94111002">
+        <rdfs:label rdf:datatype="&xsd;string">Primary malignant neoplasm of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/372087000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of trunk</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Malignant neoplasm of trunk, NOS</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Primary malignant neoplasm of trunk (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/95214007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/95214007">
+        <rdfs:label rdf:datatype="&xsd;string">Primary malignant neoplasm of liver</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/93839008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/93870000"/>
+        <bioportal:ontologyId rdf:datatype="&xsd;int">46896</bioportal:ontologyId>
+        <rdfs:comment rdf:datatype="&xsd;string">Ca liver - primary</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Primary malignant neoplasm of liver (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/95556007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/95556007">
+        <rdfs:label rdf:datatype="&xsd;string">Cholestatic hepatitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/128241005"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Cholestatic hepatitis (disorder)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1367946239.owl#morphologically_abnormal_structure">
+        <rdfs:label rdf:datatype="&xsd;string">Morphologically_abnormal_structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/118956008"/>
+        <rdfs:comment rdf:datatype="&xsd;string">missing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/4/7/untitled-ontology-379#Cytolysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/4/7/untitled-ontology-379#Cytolysis">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/30750004"/>
+        <rdfs:comment rdf:datatype="&xsd;string">missing</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

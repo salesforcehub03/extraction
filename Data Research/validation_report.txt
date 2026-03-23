@@ -1,0 +1,169 @@
+=== NODES: 146 total ===
+
+--- By Type ---
+node_type
+Organ_Toxicity              75
+PK_Profile                  24
+Clinical_Chemistry_Event    22
+AnimalGroup                 16
+Mortality                    4
+Study                        2
+Hematology_Event             2
+Drug                         1
+
+=== EDGES: 242 total ===
+
+--- By Type ---
+edge_type
+associated_with        81
+observed_pathology     75
+has_exposure           24
+observed_chemistry     22
+has_group              16
+administered_to        16
+resulted_in             4
+tested_in               2
+observed_hematology     2
+
+
+--- Node Columns ---
+['node_id', 'node_type', 'AUC', 'AUC_SD', 'Cmax', 'Cmax_SD', 'Tmax', 'accumulation_flag', 'cycle', 'cycle_count', 'day', 'dose_mg_per_kg', 'dose_mg_per_m2', 'dosing_schedule', 'drug_name', 'duration_days', 'early_decedent_flag', 'early_termination_flag', 'exposure_ratio_day151_day1', 'formulation', 'glp_status', 'group_id', 'incidence_count', 'lesion_type', 'mechanism', 'mortality_count', 'mortality_percent', 'n_recovery', 'n_terminal', 'n_tk', 'organ', 'parameter', 'percent_change', 'recovery_flag', 'recovery_presence', 'route', 'severity_grade', 'sex', 'sex_exposure_ratio', 'species', 'statistical_significance', 'study_id', 'study_type', 'treatment_phase', 'vehicle']
+
+--- Sample Nodes per Type ---
+
+Drug:
+  node_id: DRUG_PXD101
+  node_type: Drug
+  drug_name: PXD101 (Belinostat)
+  formulation: Solution for injection
+  mechanism: Histone Deacetylase (HDAC) Inhibitor
+  route: Intravenous (IV)
+
+Study:
+  node_id: STUDY_RAT_26WK
+  node_type: Study
+  cycle_count: 8.0
+  dosing_schedule: 5 days on / 16 days off (21-day cycle)
+  duration_days: 182.0
+  glp_status: GLP
+  species: Rat
+  study_id: PXD101-RAT-26WK
+  study_type: Repeat-dose toxicity with TK
+  vehicle: L-arginine/phosphoric acid solution
+
+AnimalGroup:
+  node_id: AG_RAT_M_0MG
+  node_type: AnimalGroup
+  dose_mg_per_kg: 0.0
+  dose_mg_per_m2: 0.0
+  group_id: RAT-G1-M
+  n_recovery: 5.0
+  n_terminal: 10.0
+  n_tk: 0.0
+  sex: M
+  species: Rat
+  treatment_phase: terminal/recovery/TK
+
+PK_Profile:
+  node_id: PK_RAT_M_10MG_D1
+  node_type: PK_Profile
+  AUC: 0.27
+  Cmax: 1.14
+  accumulation_flag: No
+  day: 1.0
+  dose_mg_per_kg: 10.0
+  sex: M
+  species: Rat
+
+Hematology_Event:
+  node_id: HEM_RAT_M_100MG_WBC_change_pct
+  node_type: Hematology_Event
+  cycle: Terminal
+  dose_mg_per_kg: 100.0
+  parameter: WBC
+  percent_change: -33.8
+  recovery_flag: Not assessed
+  sex: M
+  species: Rat
+  statistical_significance: Yes
+
+Clinical_Chemistry_Event:
+  node_id: CC_RAT_M_10MG_Ala_2
+  node_type: Clinical_Chemistry_Event
+  cycle: 2
+  dose_mg_per_kg: 10.0
+  parameter: Alanine Aminotransferase
+  percent_change: 3.6
+  recovery_flag: No
+  sex: M
+  species: Rat
+
+Organ_Toxicity:
+  node_id: OT_RAT_M_100MG_Heart card_Earl_f2bb94fe0c97
+  node_type: Organ_Toxicity
+  dose_mg_per_kg: 100.0
+  early_decedent_flag: Yes
+  incidence_count: 1.0
+  lesion_type: Heart cardiomyopathy
+  organ: Heart cardiomyopathy
+  recovery_presence: No
+  severity_grade: 1.0
+  sex: M
+  species: Rat
+
+Mortality:
+  node_id: MORT_RAT_M_0MG
+  node_type: Mortality
+  dose_mg_per_kg: 0.0
+  early_termination_flag: Yes
+  mortality_count: 1.0
+  mortality_percent: 10.0
+  sex: M
+  species: Rat
+
+--- Sample Edges per Type ---
+
+tested_in:
+        source          target  edge_type
+0  DRUG_PXD101  STUDY_RAT_26WK  tested_in
+1  DRUG_PXD101  STUDY_DOG_26WK  tested_in
+
+has_group:
+           source        target  edge_type
+2  STUDY_RAT_26WK  AG_RAT_M_0MG  has_group
+4  STUDY_RAT_26WK  AG_RAT_F_0MG  has_group
+
+administered_to:
+        source        target        edge_type
+3  DRUG_PXD101  AG_RAT_M_0MG  administered_to
+5  DRUG_PXD101  AG_RAT_F_0MG  administered_to
+
+has_exposure:
+           source              target     edge_type
+34  AG_RAT_M_10MG    PK_RAT_M_10MG_D1  has_exposure
+35  AG_RAT_M_10MG  PK_RAT_M_10MG_D151  has_exposure
+
+observed_hematology:
+            source                          target            edge_type
+58  AG_RAT_M_100MG  HEM_RAT_M_100MG_WBC_change_pct  observed_hematology
+60  AG_RAT_F_100MG  HEM_RAT_F_100MG_WBC_change_pct  observed_hematology
+
+associated_with:
+                 source                          target        edge_type
+59  PK_RAT_M_100MG_D151  HEM_RAT_M_100MG_WBC_change_pct  associated_with
+61  PK_RAT_F_100MG_D151  HEM_RAT_F_100MG_WBC_change_pct  associated_with
+
+observed_chemistry:
+           source               target           edge_type
+62  AG_RAT_M_10MG  CC_RAT_M_10MG_Ala_2  observed_chemistry
+63  AG_RAT_F_10MG  CC_RAT_F_10MG_Ala_2  observed_chemistry
+
+observed_pathology:
+            source                                       target           edge_type
+84  AG_RAT_M_100MG  OT_RAT_M_100MG_Heart card_Earl_f2bb94fe0c97  observed_pathology
+86  AG_RAT_M_100MG  OT_RAT_M_100MG_Spleen Hem_Earl_2d1ae361e25d  observed_pathology
+
+resulted_in:
+             source            target    edge_type
+234    AG_RAT_M_0MG    MORT_RAT_M_0MG  resulted_in
+236  AG_RAT_M_100MG  MORT_RAT_M_100MG  resulted_in
